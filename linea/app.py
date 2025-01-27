@@ -1,6 +1,6 @@
-# cálculo de coordenadas de líneas 
-import funciones
+''' cálculo de coordenadas de líneas '''
 import argparse
+import funciones
 
 
 def main(m:float, b:float):
