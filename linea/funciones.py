@@ -1,4 +1,5 @@
 # archivo con todas las funciones necesarias para la aplicación "linea"
+
 def calcular_y(x:float, m:float, b:float)->float:
     '''
     Calcula el valor de y en una línea recta
@@ -8,6 +9,7 @@ def calcular_y(x:float, m:float, b:float)->float:
     regresa el valor de y
     '''
     return (m*x)+b
+
 def test_linea():
     '''
     Comprobamos calcular_y()
