@@ -11,6 +11,7 @@ def main(m:float, b:float):
     Y = [funciones.calcular_y(x, m, b) for x in X]
     coordenadas= list(zip(X,Y))
     print(coordenadas)
+    funciones.grafica_linea(X,Y, m, b)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Calcula las coordenadas de una línea recta')
