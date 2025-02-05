@@ -38,7 +38,7 @@ def usuario(simbolos:dict):
             print('Elija un número del 1 al 9')
 
 def juego(simbolos:dict):
-    ''' Juego del gato '''
+    ''' Juego del gato ''' 
     lista_combinaciones = [
         ['1','2','3'],
         ['4','5','6'],
