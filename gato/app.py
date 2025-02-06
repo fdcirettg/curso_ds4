@@ -14,6 +14,7 @@ def main():
         dsimbolos = {x:x for x in numeros}
         g = tablero.juego(dsimbolos)
         tablero.actualiza_score(score,g)
+        tablero.despliega_tablero(score)
 
 if __name__ == '__main__':
     main()
