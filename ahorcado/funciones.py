@@ -48,7 +48,7 @@ def obten_palabras(lista:list)->list:
     set_palabras = {unicodedata.normalize('NFKD', palabra).encode('ascii', 'ignore').decode('ascii') for palabra in set_palabras}
     return list(set_palabras)
 
-def adivina_letra(abc:dict, palabra:str,letras_adivinadas:set,turnos:int):
+def adivina_letra(abc:dict, palabra:str, letras_adivinadas:set, turnos:int):
     '''
     Adivina una letra de una palabra
     '''
@@ -58,24 +58,20 @@ def adivina_letra(abc:dict, palabra:str,letras_adivinadas:set,turnos:int):
             palabra_oculta += letra
         else:
             palabra_oculta += "_"
-    print(f'Tienes {turnos} turnos')
-    print(f'Palabra oculta: {palabra_oculta}')
+    print(f'Tienes {turnos} oportunidades de fallar')
     print(f'El abecedario es: {abc}')
+    print(f'La palabra es: {palabra_oculta}')
     letra = input('Ingresa una letra: ')
     letra = letra.lower()
-    if len(letra) != 1 or letra not in abc:
-        print('Ingresa una letra válida')
-    else:
+    if letra in abc:
         if abc[letra] == "*":
-            print('Ya ingresaste esa letra')
+            print('Ya adivinaste esa letra')
         else:
-            abc[letra] = "*"
+            abc[letra]= "*"
             if letra in palabra:
                 letras_adivinadas.add(letra)
             else:
                 turnos -= 1
-    
-    
 
 if __name__ == '__main__':
     plantillas = carga_plantillas('plantilla')
@@ -86,10 +82,7 @@ if __name__ == '__main__':
     p = choice(lista_palabras)
     print(p)
     abcdario = {letra:letra for letra in string.ascii_lowercase}
-    letras_adivinadas = set()
-    turnos = 5
-    print(f"Tienes {turnos} turnos")
-    print(f'El abecedario es: {abcdario}')
-    adivina_letra(abcdario, p, letras_adivinadas, turnos)
-    print(f"Tienes {turnos} turnos")
-    adivina_letra(abcdario, p, letras_adivinadas, turnos)
+    adivinadas = set()
+    t = 5 # oportunidades
+    adivina_letra(abcdario, p, adivinadas, t)
+    adivina_letra(abcdario, p, adivinadas, t)
