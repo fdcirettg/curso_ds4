@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Football",
+        "players": 11,
+        "league": "NFL"
+    },
+    {
+        "name": "Baseball",
+        "players": 9,
+        "league": "LMP"
+    },
+    {
+        "name": "Baseball",
+        "players": 9,
+        "league": "MLB"
+    },
+    {
+        "name": "Soccer",
+        "players": 11,
+        "league": "Liga MX"
+    },
+    {
+        "name": "Basketball",
+        "players": 5,
+        "league": "NBA"
+    },
+    {
+        "name": "Soccer",
+        "players": 11,
+        "league": "FIFA"
+    }
+]
