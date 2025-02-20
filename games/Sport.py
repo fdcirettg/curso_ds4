@@ -33,6 +33,7 @@ if __name__ == "__main__":
     lmx = Sport("Soccer", 11, "Liga MX")
     nba = Sport("Basketball", 5, "NBA")
     lista_deportes = [nfl, lmp, mlb, lmx, nba, s]
+    # Salvamos objetos como texto (su representación)
     archivo_deportes = "deportes.txt"
     with open(archivo_deportes, "w") as file:
         for d in lista_deportes:
@@ -47,9 +48,15 @@ if __name__ == "__main__":
     # Escribiremos el archivo en formato JSON
     import json
     archivo_json = "deportes.json"
-    with open(archivo_json, "w") as file:
-        for d in sport_list:
-            json.dump(d.to_json(), file)
-            file.write("\n")
+    # Convert all sports to JSON format
+    sports_json = [sport.to_json() for sport in sport_list]
+    # Write the entire list as a single JSON array
+    with open(archivo_json, "w", encoding='utf8') as file:
+        json.dump(sports_json, file, indent=4)
+
     # Leemos el archivo JSON
     sport_list_json = []
+    with open(archivo_json, "r") as file:
+        sport_list_json = json.load(file)
+    print(sport_list_json)
+    print(repr(sport_list_json[0]))
