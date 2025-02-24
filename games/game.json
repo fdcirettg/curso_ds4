@@ -1,0 +1,38 @@
+{'A': 
+    {'name': 'Dream Team', 
+     'sport': 
+            {'name': 'Basketball', 
+            'players': 5, 
+            'league': 'NBA'
+        }, 
+        'players': [
+            {'name': 'Jordan'
+            },
+            {'name': 'Johnson'
+            },
+            {'name': 'Pipen'
+            },
+            {'name': 'Bird'
+            },
+            {'name': 'Kobe'
+            }
+        ]
+    }, 'B': {'name': 'Czeck Rep.', 'sport': {'name': 'Basketball', 'players': 5, 'league': 'NBA'
+        }, 'players': [
+            {'name': 'Bjovik'
+            },
+            {'name': 'Czack'
+            },
+            {'name': 'Pfeizer'
+            },
+            {'name': 'Leonard'
+            },
+            {'name': 'Kempfe'
+            }
+        ]
+    }, 
+    'score': 
+        {'Dream Team': 112, 
+        'Czeck Rep.': 59
+    }
+}
