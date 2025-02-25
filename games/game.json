@@ -1,38 +1,56 @@
-{'A': 
-    {'name': 'Dream Team', 
-     'sport': 
-            {'name': 'Basketball', 
-            'players': 5, 
-            'league': 'NBA'
-        }, 
-        'players': [
-            {'name': 'Jordan'
+{
+    "A": {
+        "name": "Dream Team",
+        "sport": {
+            "name": "Basketball",
+            "players": 5,
+            "league": "NBA"
+        },
+        "players": [
+            {
+                "name": "Jordan"
             },
-            {'name': 'Johnson'
+            {
+                "name": "Johnson"
             },
-            {'name': 'Pipen'
+            {
+                "name": "Pipen"
             },
-            {'name': 'Bird'
+            {
+                "name": "Bird"
             },
-            {'name': 'Kobe'
+            {
+                "name": "Kobe"
             }
         ]
-    }, 'B': {'name': 'Czeck Rep.', 'sport': {'name': 'Basketball', 'players': 5, 'league': 'NBA'
-        }, 'players': [
-            {'name': 'Bjovik'
+    },
+    "B": {
+        "name": "Czeck Rep.",
+        "sport": {
+            "name": "Basketball",
+            "players": 5,
+            "league": "NBA"
+        },
+        "players": [
+            {
+                "name": "Bjovik"
             },
-            {'name': 'Czack'
+            {
+                "name": "Czack"
             },
-            {'name': 'Pfeizer'
+            {
+                "name": "Pfeizer"
             },
-            {'name': 'Leonard'
+            {
+                "name": "Leonard"
             },
-            {'name': 'Kempfe'
+            {
+                "name": "Kempfe"
             }
         ]
-    }, 
-    'score': 
-        {'Dream Team': 112, 
-        'Czeck Rep.': 59
+    },
+    "score": {
+        "Dream Team": 100,
+        "Czeck Rep.": 135
     }
 }
