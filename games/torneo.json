@@ -44,6 +44,55 @@
             ]
         },
         "B": {
+            "name": "Argentina",
+            "sport": {
+                "name": "Soccer",
+                "players": 11,
+                "league": "FIFA"
+            },
+            "players": [
+                {
+                    "name": "Messi"
+                },
+                {
+                    "name": "Aguero"
+                },
+                {
+                    "name": "Di Maria"
+                },
+                {
+                    "name": "Mascherano"
+                },
+                {
+                    "name": "Higuain"
+                },
+                {
+                    "name": "Dybala"
+                },
+                {
+                    "name": "Otamendi"
+                },
+                {
+                    "name": "Romero"
+                },
+                {
+                    "name": "Rojo"
+                },
+                {
+                    "name": "Banega"
+                },
+                {
+                    "name": "Fazio"
+                }
+            ]
+        },
+        "score": {
+            "Mexico": 0,
+            "Argentina": 0
+        }
+    },
+    {
+        "A": {
             "name": "España",
             "sport": {
                 "name": "Soccer",
@@ -86,9 +135,236 @@
                 }
             ]
         },
+        "B": {
+            "name": "Argentina",
+            "sport": {
+                "name": "Soccer",
+                "players": 11,
+                "league": "FIFA"
+            },
+            "players": [
+                {
+                    "name": "Messi"
+                },
+                {
+                    "name": "Aguero"
+                },
+                {
+                    "name": "Di Maria"
+                },
+                {
+                    "name": "Mascherano"
+                },
+                {
+                    "name": "Higuain"
+                },
+                {
+                    "name": "Dybala"
+                },
+                {
+                    "name": "Otamendi"
+                },
+                {
+                    "name": "Romero"
+                },
+                {
+                    "name": "Rojo"
+                },
+                {
+                    "name": "Banega"
+                },
+                {
+                    "name": "Fazio"
+                }
+            ]
+        },
         "score": {
-            "Mexico": 0,
-            "España": 0
+            "España": 0,
+            "Argentina": 0
+        }
+    },
+    {
+        "A": {
+            "name": "Brasil",
+            "sport": {
+                "name": "Soccer",
+                "players": 11,
+                "league": "FIFA"
+            },
+            "players": [
+                {
+                    "name": "Neymar"
+                },
+                {
+                    "name": "Coutinho"
+                },
+                {
+                    "name": "Marcelo"
+                },
+                {
+                    "name": "Casemiro"
+                },
+                {
+                    "name": "Alisson"
+                },
+                {
+                    "name": "Jesus"
+                },
+                {
+                    "name": "Paulinho"
+                },
+                {
+                    "name": "Thiago"
+                },
+                {
+                    "name": "Silva"
+                },
+                {
+                    "name": "Firmino"
+                },
+                {
+                    "name": "Danilo"
+                }
+            ]
+        },
+        "B": {
+            "name": "Argentina",
+            "sport": {
+                "name": "Soccer",
+                "players": 11,
+                "league": "FIFA"
+            },
+            "players": [
+                {
+                    "name": "Messi"
+                },
+                {
+                    "name": "Aguero"
+                },
+                {
+                    "name": "Di Maria"
+                },
+                {
+                    "name": "Mascherano"
+                },
+                {
+                    "name": "Higuain"
+                },
+                {
+                    "name": "Dybala"
+                },
+                {
+                    "name": "Otamendi"
+                },
+                {
+                    "name": "Romero"
+                },
+                {
+                    "name": "Rojo"
+                },
+                {
+                    "name": "Banega"
+                },
+                {
+                    "name": "Fazio"
+                }
+            ]
+        },
+        "score": {
+            "Brasil": 0,
+            "Argentina": 0
+        }
+    },
+    {
+        "A": {
+            "name": "Argentina",
+            "sport": {
+                "name": "Soccer",
+                "players": 11,
+                "league": "FIFA"
+            },
+            "players": [
+                {
+                    "name": "Messi"
+                },
+                {
+                    "name": "Aguero"
+                },
+                {
+                    "name": "Di Maria"
+                },
+                {
+                    "name": "Mascherano"
+                },
+                {
+                    "name": "Higuain"
+                },
+                {
+                    "name": "Dybala"
+                },
+                {
+                    "name": "Otamendi"
+                },
+                {
+                    "name": "Romero"
+                },
+                {
+                    "name": "Rojo"
+                },
+                {
+                    "name": "Banega"
+                },
+                {
+                    "name": "Fazio"
+                }
+            ]
+        },
+        "B": {
+            "name": "Brasil",
+            "sport": {
+                "name": "Soccer",
+                "players": 11,
+                "league": "FIFA"
+            },
+            "players": [
+                {
+                    "name": "Neymar"
+                },
+                {
+                    "name": "Coutinho"
+                },
+                {
+                    "name": "Marcelo"
+                },
+                {
+                    "name": "Casemiro"
+                },
+                {
+                    "name": "Alisson"
+                },
+                {
+                    "name": "Jesus"
+                },
+                {
+                    "name": "Paulinho"
+                },
+                {
+                    "name": "Thiago"
+                },
+                {
+                    "name": "Silva"
+                },
+                {
+                    "name": "Firmino"
+                },
+                {
+                    "name": "Danilo"
+                }
+            ]
+        },
+        "score": {
+            "Argentina": 0,
+            "Brasil": 0
         }
     }
 ]
