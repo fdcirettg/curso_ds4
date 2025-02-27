@@ -48,7 +48,7 @@ def main(archivo_torneo:str):
                     juego = Game(local, visitante)
                     partido = f'{local} - {visitante}'
                     partido_2 = f'{visitante} - {local}'
-                    if partido_2 not in d:
+                    if partido not in d and partido_2 not in d:
                         d[partido] = juego.to_json()
         #print(d.keys())
         torneo = list(d.values())
