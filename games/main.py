@@ -77,8 +77,8 @@ def main(archivo_torneo:str):
         juego['score'] = game.score
         print("----------------")
     # Calcular el tablero de puntuación 
-    for juego in torneo:
-        print(juego['score'])
+    #for juego in torneo:
+    #   print(juego['score'])
     #torneo = gl.json_to_tournament(torneo)
     tablero = gl.scoring(torneo)
     gl.display_tablero(tablero) 
