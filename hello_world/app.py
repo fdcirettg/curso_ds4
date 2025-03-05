@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route('/') #Home page o raíz o índice
 def index():
+    '''Función que se ejecuta cuando se accede a la raíz de la página'''
     return '''<html>
                     <head>
                         <title>Hello world</title>
@@ -15,6 +16,7 @@ def index():
 
 @app.route('/about') #Acerca de
 def about():
+    '''Función que se ejecuta cuando se accede a la página de acerca de'''
     return '''<html>
                     <head>
                         <title>Acerca de</title>
