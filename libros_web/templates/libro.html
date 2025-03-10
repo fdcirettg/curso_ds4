@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro Web - Libro {{libro.title}}</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><h3>id</h3></td><td>{{libro.id}}</td>
+        </tr>
+        <tr>
+            <td><h3>Portada</h3></td><td><img src="{{libro.image_url}}" width="150"></td>
+        <tr>
+            <td><h3>Título</h3></td><td>{{libro.title}}</td>
+        </tr>
+        <tr>
+            <td><h3>Autor</h3></td><td>{{libro.author}}</td>
+        </tr>
+        <tr>
+            <td><h3>ID Categoría</h3></td><td>{{libro.category_id}}</td>
+        </tr>
+        <tr>
+            <td><h3>Categoría</h3></td><td>{{libro.category}}</td> 
+        </tr>
+    </table>
+    <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/titulo">Búsqueda por título</a></li>
+        <li><a href="/autor">Búsqueda por autor</a></li>
+        <li><a href="/letra">Desplegar por letra</a></li>
+    </ul>
+</body>
+</html>

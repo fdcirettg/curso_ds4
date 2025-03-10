@@ -15,7 +15,7 @@
         </form>
         <ul>
             {% for libro in lista_libros %}
-                <li>{{ libro.title }} - {{libro.author}}</li>
+                <li><a href="/libro/{{libro.id}}">{{ libro.title }}</a> - {{libro.author}}</li>
             {% endfor %}
         </ul>
         <ul>
