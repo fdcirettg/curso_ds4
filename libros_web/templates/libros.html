@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Libro Web - Despliegue por letra{% endblock %}
+{% block head %}
+
+{% endblock %}
+{% block body %}
+<div class="container py-5">
+    <h1 class="mb-4">Libros Web</h1>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        
+        <div class="col">
+            <div class="card book-card">
+                <img src="{{ libro.image_url }}" class="card-img-top book-img p-3" alt="{{ libro.title }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ libro.title }}</h5>
+                    <p class="card-text">
+                        <strong>Autor:</strong> {{ libro.author }}<br>
+                        <span class="badge bg-secondary">{{ libro.category }}</span>
+                    </p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+                <div class="card-footer text-muted">
+                    ID: {{ libro.id }}
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{% endblock %}

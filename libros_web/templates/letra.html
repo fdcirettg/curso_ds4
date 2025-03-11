@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Libros Web - Desplegar por letra</title>
+    </head>
+    <body>
+        <h1>Libros Web</h1>
+        <p>Selecciona la letra a mostrar</p>
+        <div>
+            {% for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' %}
+            <a href="/letra/{{ letter }}">{{ letter }}</a>
+            {% if not loop.last %} | {% endif %}
+            {% endfor %}
+        </div>
+        <div>
+            <ul>
+                {% for libro in lista_libros %}
+                    <li><a href="/libro/{{libro.id}}">{{ libro.title }}</a> - {{libro.author}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/titulo">Búsqueda por título</a></li>
+                <li><a href="/autor">Búsqueda por autor</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
