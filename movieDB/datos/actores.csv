@@ -1,0 +1,58 @@
+id_estrella,nombre,fecha_nacimiento,ciudad_nacimiento,url_imagen,username
+1,Mark Hamill,1951-09-25,"Oakland, California",https://decine21.com/img/upload/perfiles/mark-hamill-14817/mark-hamill-14817-c.jpg,fcirettg
+2,Carrie Fisher,1956-10-21,"Burbank, California","https://m.media-amazon.com/images/M/MV5BMTY3YWY0YjAtY2Y5OS00OTQxLWE4NGQtZDA3NDU0YTVlZDMxXkEyXkFqcGc@._V1_.jpg"" sizes=""100vw",fcirettg
+3,Mads Mikkelsen ,1965-11-22,"Østerbro, Dinamarca",https://i.pinimg.com/originals/a5/dc/9b/a5dc9bfb274d88d976cb5370e3f168a4.jpg,Majo
+4,Al Pacino,1940-04-25,"Harlem del Este, NY",https://www.lavanguardia.com/peliculas-series/images/all/profile/1940/4/1158/w1280/fMDFeVf0pjopTJbyRSLFwNDm8Wr.jpg,Isaac
+5,Sydney Sweeney,1997-09-12,"Spokane, Washington",https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elle.com%2Fuk%2Fbeauty%2Fhair%2Fa62633803%2Fsydney-sweeney-brown-hair%2F&psig=AOvVaw3hwT2tqtIQJ2Ycd5WBgFUG&ust=1741986969554000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKCS-In-h4wDFQAAAAAdAAAAABAE,
+6,Arnold Schwarzenegger,1947-07-30,"Thal, Australia","https://media.cnn.com/api/v1/images/stellar/prod/220122120946-arnold-schwarzenegger-2021-file.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp",toño
+7,Hailee Steinfeld,1996-11-12,"Los Angeles, California",https://media.themoviedb.org/t/p/w600_and_h900_bestv2/dxSDWkiVaC6JYjrV3XRAZI7HOSS.jpg,Karolina
+8,Saoirse Ronan,1994-04-12,"Nueva York, Nueva York",https://image.tmdb.org/t/p/original/up6QJZUK88e4ZD9r1iJEj966LoS.jpg,jogerman
+9,Ryan Reinolds,1976-10-23,"Vancouver, Canada",https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTq-oZ3cE1Bjh1IT9SL6IJCj9of3BK-Y28DYlKUa2p9j7GX_NhXTxtzAb5bMb6SCQSwejl4EtOlhlRBIU3R_8GY5_khi3L1oQ,Genaro
+10,Gal Gadot,1985-04-30,"Petaj Tikva, Israel",https://upload.wikimedia.org/wikipedia/commons/6/6a/Gal_Gadot_2018_cropped_retouched.jpg,Genaro
+11,Jaime Foxx,1967-12-13,"Terrell, Texas, Estados Unidos",https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQcf93dNqYZynmztDYBSzf0WodHoLpybg04aUzjBDADSZQIgBThA53JAWMU68GzKqoli0EL_Z-44Z35N4_x0cwfKg,Eduardo
+12,"Gong Yoo",1979-07-10,"Busan, Corea del sur","https://tecolotito.elsiglodedurango.com.mx/cdn-cgi/image/format=auto,width=1024/i/2025/01/1294781.jpeg",Almejandra
+13,Jack Nicholson,1937-04-22," Neptune City, Nueva Jersey, Estados Unidos",https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSUL5ASLpwEPh8xhOe6npa6Ke-A6ElR_3v_-bK7r49MUbDUiBSJE3CeurvTHvxwf0UD3hjwkWLAru6lWfbXK9dYw,Eduardo
+14,Matthew McConaughey,1969-11-04,"Uvalde, Texas, Estados Unidos",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4iaiNI6s5_t-MH1cGUm4o0RL5t32tWw5efg&s,Eduardo
+15,Jerry Trainor,1977-1-21,"San Diego, California",https://mx.web.img3.acsta.net/r_1280_720/medias/nmedia/18/89/81/86/20067970.jpg,Héctor
+16,Keanu Reeves,1964-09-02,"Beirut, Líbano",https://m.media-amazon.com/images/M/MV5BNDEzOTdhNDUtY2EyMy00YTNmLWE5MjItZmRjMmQzYTRlMGRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg,Moises
+17,charles chaplin,1889-03-16,"Londres, Reino Unido",https://es.babelio.com/users/AVT_Charles-Chaplin_745.jpg,mayo
+18,Robert Downey Jr.,1965-04-04,"Manhattan, Nueva York",https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg,IanRM
+19,Margot Robbie,1990-07-02,"Dalby, Autralia","https://www.hola.com/horizon/square/a04f724d3d33-margot-robbie-actriz-estilo-t.jpg?im=Resize=(640),type=downsize",Almejandra
+20,Jonny Depp,1963-06-09,"Owensboro, Kentucky",https://www.imdb.com/es-es/name/nm0000136/,Yahir
+21,Chris Evans,1981-06-13,"Boston, Massachusetts",https://www.lavanguardia.com/peliculas-series/images/profile/1981/6/w1280/3bOGNsHlrswhyW79uvIHH1V43JI.jpg,birt
+22,Robin Williams,1951-07-21,"Paradise Cay, Península del Tiburón, California, Estados Unidos",https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLtQs1zboECo7OLeTN7pDhGXwvZI8LyLjipMR4hVXrHnD7psZv1pmUZmGPhSOBBOXfvejwlYMuQGSPaeez6wyKreAH0S1t1hx0sdhZ-ZE,Eduardo
+23,Selena Gomez,1992-07-22,"Grand Prairie, Texas",https://image.tmdb.org/t/p/original/32CpPwr1kLiEQsSFlbU1i8yTIvd.jpg,
+24,Bob odenkirk,1962-10-22,"Berwyn, Illinois, Estados Unidos",https://www.latercera.com/resizer/v2/N5BBL5EAPBA65NNMKB2IJOQ6IA.jpeg?quality=80&smart=true&auth=dcce74253601286f904e6abf876a3f2e8b2f256c76f02d4ee797706d28aadfc9&width=690&height=502,Eduardo
+25,Tilda Swinton,1960-11-05,"Londres, Reino Unido",https://www.lavanguardia.com/peliculas-series/images/profile/1960/11/w300/gWbX3a7V2MgRMRzekfITNcb27xV.jpg,Moises
+26,Ana de Armas,1988-04-30,"La Habana, Cuba",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShTn6UncQkVz7O85XIlhIwSqGAdQBmFYqjbg&s,
+27,Bryan Cranston,1956-03-07,"Hollywood, Los Ángeles, California, Estados Unidos",https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTN3al6JJ90KhAdBXaCDGbiegJDFfCUH0mqR0u1bq-HfYkFNP6zUE1dJ0lVISJrPI3et_gsxLn7oe4tAkN8v9t9wmvzUwIU-TtzbB5w5vo,Eduardo
+28,Harrison Ford,1942-07-13,"Chicago, Illinois",https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Harrison_Ford_by_Gage_Skidmore_3.jpg/440px-Harrison_Ford_by_Gage_Skidmore_3.jpg,fcirettg
+29,Tom Holland,1996-06-01,Kingston upon Thames,"https://lumiere-a.akamaihd.net/v1/images/spider-man_tom_holland_178c4a70.jpeg?region=33,0,1431,805&width=960",vee
+30,Nicholas Galitzine,1994-09-29,"Londres, Reino Unido",https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fJOWmbELylPO1grgtntTojJH661.jpg,Karolina
+31,Cillian Murphy,1976-05-25,"Douglas, Cork, Irlanda",https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQzkWitonlWjbOGPF-C9OECuB_y82-lsOAMD46h7fm2NZirQ31Je8wu_yYtt0gCcAL20ETixDKYAB_KaU0,Eduardo
+32,Ryan Gosling,1980-11-12,"London, Ontario",https://i.pinimg.com/originals/62/36/7b/62367b39926c55d958700046c7fe352a.jpg,Majo
+33,Tom Hanks,1956-06-09,"Concord, California",https://doblaje.fandom.com/es/wiki/Tom_Hanks,Yahir
+34,Leonardo DiCaprio,1974-11-11,"Los Angeles, California",https://www.google.com/url?sa=i&url=https%3A%2F%2Fvariety.com%2Ft%2Fleonardo-dicaprio%2F&psig=AOvVaw25HsbsX2COJ6peM82FXgVD&ust=1741987584735000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNir2vH_h4wDFQAAAAAdAAAAABAE,Isaac
+35,Adam Sandler,1966-09-09,"Brooklyn, Nueva York",https://www.google.com/imgres?q=adam%20sandler&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Funiverso-reynandez%2Fimages%2F6%2F66%2FAdam_Sandler.jpg%2Frevision%2Flatest%3Fcb%3D20210910105037%26path-prefix%3Des&imgrefurl=https%3A%2F%2Funiverso-reynandez.fandom.com%2Fes%2Fwiki%2FAdam_Sandler&docid=Y4xWbyGSwA3VfM&tbnid=ci0yh00IZQZppM&vet=12ahUKEwil3IHBgYiMAxWIKkQIHXo_IWgQM3oECGEQAA..i&w=360&h=450&hcb=2&ved=2ahUKEwil3IHBgYiMAxWIKkQIHXo_IWgQM3oECGEQAA,
+36,Emily Blunt,1983-02-23,"Londres, Inglaterra",https://www.giantfreakinrobot.com/wp-content/uploads/2023/12/emily-blunt-edge-of-tomorrow1.jpg,
+37,Jean-Claude Van Damme,1960-10-18,"Berchem-Sainte-Agathe, Bélgica",https://www.hollywoodreporter.com/wp-content/uploads/2022/11/Jean-Claude-Van-Damme-7766-16x9crop.jpg?w=1296&h=730&crop=1,mayo
+38,Sylvester Stallone,1946-07-06,"New York, Estados Unidos",https://images.mubicdn.net/images/cast_member/25372/cache-2352-1478101707/image-w856.jpg?size=300x,mayo
+39,Mario Fortino Alfonso Moreno Reyes ,1911-08-12,"Ciudad de Mexico, México",https://resizer.glanacion.com/resizer/v2/tras-la-muerte-de-cantinflas-en-1993-por-un-CFXDDZKM6RDLBPMAY2CB3IOEWI.jpg?auth=e406c22da6f46a848fd5254cf86e08ed096840039f1b3b0a1d0bd2f9159f61cb&width=1280&height=854&quality=70&smart=true,Jorge
+40,Emma Watson,1990-04-15,"Paris, Francia",https://imagenes.elpais.com/resizer/v2/YPTIH45VOVAKZLZZW67TWFSBC4.jpg?auth=e6930b70c3f9afd1555e366609a341b26686a811107247e76d82fb63c8a320b4&width=1960&height=1470&focal=1083%2C578,Jorge
+41,Charlotte Gainsbourg,1971-07-21,"Londres, Reino Unido",https://image.tmdb.org/t/p/original/sRJV19WKYISPyS3kd3w9FhzCADe.jpg,
+42,Christoph Waltz,1956-10-04,"Viena, Austria",http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrtdx6t_3sjLvqhj4LNIaG0dfcCJ7t4pTEmJl-pGHqTrc2u6TLwU8KhQnbS4GGjnlyg80SdFE-mBcmxWYKHsztZw,Eduardo
+43,Mia Goth,1993-10-25,"Londres, Reino Unido",https://image.tmdb.org/t/p/original/xB8fVduiFtgu35ieEjiTiFx8ylv.jpg,
+44,Charlie Hunnam,1980-04-10,"Newcastle upon Tyne, Reino Unido",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa-pujXNJEfVs5pe10R_RG6jn6kJm1BNBT4LdbuVE6yXLtnVr9VW8GuIW439GMmdKaVPdwsAOvnj0bGNZ27KU9H_PH0vo71XZFs3XkK3s,luis
+45,Tom Cruise,1962-07-03,"Siracusa, Nueva York, Estados Unidos",https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhOK81cq7EthGs9DoP1laD-HpFW7dBrQIO2Xm0zTajFJlR6OQmpbNY-azRl8h73UoLAyj56K_FpsCz3oWlygyxIuXNU_n7dT67w7rQAA,luis
+46,Robert Pattinson,1986-05-13,"Londres, Inglaterra",https://m.media-amazon.com/images/M/MV5BNzk0MDQ5OTUxMV5BMl5BanBnXkFtZTcwMDM5ODk5Mg@@._V1_FMjpg_UX1000_.jpg,marco
+47,Eugenio Derbez,1961-09-02,"CDMX, Milpa Alta",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUXDVJiOZySLxK7THOoowzdzJcEdrnMlq77g&s,munguia
+48,Neil Patrick Harris,1973-5-15,"Alburqueque, Estados unidos",https://i0.wp.com/applauss.com/wp-content/uploads/2017/09/barney-stinson-quiz.jpg?fit=1200%2C800&ssl=1,
+49,Rami Malek,1981-05-14,"Torrance, California, Estados Unidos",https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/SXSW_2016_-_Rami_Malek_%2825138464364%29_%28cropped_2%29.jpg/800px-SXSW_2016_-_Rami_Malek_%2825138464364%29_%28cropped_2%29.jpg,VictorJ
+50,Anne Hathaway,1982-11-12,"Brooklyn, New York City",https://gudstory.s3.us-east-2.amazonaws.com/wp-content/uploads/2020/07/06090903/Ann-Hathway-560x420.jpg,adrisanv
+51,Adrien Brody,1973-04-14,"Nueva York, Nueva York",https://gentleman.elperiodico.com/wp-content/uploads/2024/09/GettyImages-2169722195.jpeg,mau
+52,Ezra Miller,1992-09-30,"Nueva Jersey, Estados Unidos",https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqHOb4nO6VnhtF2fMIIBvBKQ7QBCyecDYQsOcn-cSE_zpwJqmOd_aNkTaitpsfQkqL0thDZpVeNh4_Z23Z7lQjRQ,Bryangs
+53,Michelle Yeoh,1962-08-06,"Ipoh, Malaysia",https://hips.hearstapps.com/hmg-prod/images/malaysian-actress-michelle-yeoh-poses-with-the-oscar-for-news-photo-1690823697.jpg ,sshoup
+54,Audrey Hepburn,1929-05-04,"Ixelles, Bèlgica",https://th.bing.com/th/id/R.465aec789ad20f519dca2f142e8851bf?rik=xgktlsTfBW6wbA&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f21700000%2fAudrey-Hepburn-audrey-hepburn-21766491-1300-1609.jpg&ehk=MlKSTAf2idBbPl9QP4P0LyPPSjtx8yaCiD7SQp29m2A%3d&risl=&pid=ImgRaw&r=0,samya
+55,Steve Carell,1962-08-15,"Concord, Massachusetts",https://news.northwestern.edu/assets/Stories/2025/02/carell1940__FitMaxWzk3MCw2NTBd.jpg,meche
+56,Will Smith,1968-09-25,"Filadelfia, Pensilvania",https://th.bing.com/th/id/OIP.Z29ZwK3pIZlz-Zv-4aAqbwHaEK?rs=1&pid=ImgDetMain,jesusyancarlo
+57,Ariana Grande,1993-06-26,"Boca Raton, Florida",https://th.bing.com/th/id/OIP.eu-Cw-NXNaXO858Rf9j5rAHaIb?rs=1&pid=ImgDetMain,adrisanv
