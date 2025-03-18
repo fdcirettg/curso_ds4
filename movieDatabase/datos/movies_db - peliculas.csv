@@ -1,0 +1,105 @@
+id_pelicula,titulo_pelicula,fecha_lanzamiento,url_poster
+1,Star Wars,1977-05-04,"https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_.jpg"" sizes=""100vw"
+2,The Empire Strikes Back,1980-06-20,https://preview.redd.it/the-empire-strikes-back-1980-movie-poster-v0-obb9faatoopb1.jpg?auto=webp&s=d36fbea1b3dc3748467ca6caad29fdaeef787b5a
+3,Return of the Jedi,1983-05-25,https://musicart.xboxlive.com/7/71325100-0000-0000-0000-000000000002/504/image.jpg?q=90&m=6&h=270&w=270&b=%23FFFFFFFF&f=jpg&o=f&aim=true
+4,Austin Powers: International Man of Mystery,1997-05-02,https://m.media-amazon.com/images/I/71lREg7rtDL._AC_SX679_.jpg
+5,Constantine,2005-02-17,https://pics.filmaffinity.com/Constantine-696456521-mmed.jpg
+6,Lady Bird,2017-03-11,https://www.themoviedb.org/t/p/w1280/gl66K7zRdtNYGrxyS2YDUP5ASZd.jpg
+7,Brooklyn,2015-06-11,https://www.themoviedb.org/t/p/w1280/cs7W8j5lI7qzRW6tKSj9p1Q0Ze7.jpg
+8,Little Women,2019-12-25,https://www.themoviedb.org/t/p/w1280/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg
+9, Spider-Man: Across the Spider-Verse,2023-06-01,https://www.themoviedb.org/t/p/w1280/37WcNMgNOMxdhT87MFl7tq7FM1.jpg
+10,Iron Man,2008-04-30,https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg
+11,Alerta Roja,2021-11-4,https://es.web.img2.acsta.net/pictures/21/10/21/15/51/3458190.jpg
+12,Goblin,2016-12-02,https://miro.medium.com/v2/resize:fit:736/1*4FaGGN4RGH3Q3CuMnikunA.jpeg
+13,Barbie,2021-07-21,5479684.jpg (1200×1725)
+14,Euphoria,2019-06-01,https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Fes%2Ftitle%2Ftt8772296%2F&psig=AOvVaw1qutpm8n148WWDl078H-ZW&ust=1741987288326000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIiVp-r-h4wDFQAAAAAdAAAAABAE
+15,El joven manos de tijera,1990-12-14,https://www.themoviedb.org/movie/162-edward-scissorhands/images/posters?language=es-MX
+16,Terminator,1984-10-26,https://static.wikia.nocookie.net/doblaje/images/b/b4/Terminator_DVD.jpg/revision/latest/scale-to-width-down/1000?cb=20210302005811&path-prefix=es
+17,Pitch Perfect 2,2012-09-28,https://www.themoviedb.org/t/p/w1280/nuopXlrClCnw85IDZoSFbW1MjbV.jpg
+18,La Mujer Maravilla,2017-07-02,https://image.tmdb.org/t/p/original/7GL8PAA0SkTJDK8eMD9diCV4HmR.jpg
+19,Avengers: Infinity War,2018-04-27,https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg
+20,Arcane,2021-11-06,https://www.themoviedb.org/t/p/w1280/i1vSPUbiBe2iK2HapGDfHItBFlC.jpg
+21,Spring Breakers,2013-03-15,https://www.themoviedb.org/t/p/w1280/9tyPnyEkL44qbAliM9jMRWc6bjg.jpg
+22,Emilia Pérez,2024-11-13,https://image.tmdb.org/t/p/original/kKmglIyqkpLOMXe53lSYSNO9au.jpg
+23,iCarly,2007-09-08,"https://m.media-amazon.com/images/I/615R83HI7xL._AC_UF894,1000_QL80_.jpg"
+24,Evolution,2001-06-08,https://m.media-amazon.com/images/I/51inm+CvmgL.jpg
+25,Wendell & Vinnie,2013-2-13,https://pics.filmaffinity.com/wendell_vinnie_aka_wendell_and_vinnie_tv_series-695823332-large.jpg
+26,Matrix,1999-05-21,https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/220px-The_Matrix_Poster.jpg
+27,El padrino,1972-03-24,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8F9hpABISwNl4sXh8a2lpL-EoQ7EUkDYicQ&s
+28,Los 4 fantasticos,2005-07-08,https://m.media-amazon.com/images/M/MV5BNjY2YmZmMzUtZWY5Mi00MzI3LTljOTgtYTMwMWY1ODI5ZWY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg
+29,Hannibal,2013-04-04,https://www.justwatch.com/images/poster/9259253/s718/temporada-1.jpg
+30,Blade Runner 2049,2017-10-03,https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png
+31,Escuadron 6,2019-12-10,https://static.wikia.nocookie.net/doblaje/images/a/a6/Six_underground.jpg/revision/latest/scale-to-width-down/1200?cb=20191114183002&path-prefix=es
+32,Avengers: End Game,2019-04-26,https://www.themoviedb.org/t/p/w600_and_h900_bestv2/br6krBFpaYmCSglLBWRuhui7tPc.jpg
+33,Train to Busan,2016-07-01,https://m.media-amazon.com/images/M/MV5BMTkwOTQ4OTg0OV5BMl5BanBnXkFtZTgwMzQyOTM0OTE@._V1_.jpg
+34,The Edge of Seventeen,2016-11-18,https://www.themoviedb.org/t/p/w1280/1LyFay8CGf8mhPRDrMe0ljWw9GK.jpg
+35,True Grit,2010-12-14,https://www.themoviedb.org/t/p/w1280/tCrB8pcjadZjsDk7rleGJaIv78k.jpg
+36,The Keeping Room,2014-09-25,https://www.themoviedb.org/t/p/w1280/5hj2RoLiD31AuUfnYKA2HBlIb6n.jpg
+37,Dickinson,2019-11-1,https://www.themoviedb.org/t/p/w1280/dDdcAfHBZ6Aalv53iR6o35CSLWA.jpg
+38,Sonic 3: la pelicula,2024-12-25,https://m.media-amazon.com/images/M/MV5BYzMxOTYyY2YtNzNlMy00MGEwLTg0YjUtODAwNjgyNWFmZDIwXkEyXkFqcGc@._V1_.jpg
+39,Spider-Man: Homecoming,2017-07-07,https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg
+40,El gran hotel Budapest,2014-03-06,https://pics.filmaffinity.com/El_Gran_Hotel_Budapest-201169276-large.jpg
+41,Luces de la Ciudad,1931-12-24,https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/City_Lights_%281931_theatrical_poster_-_retouched%29.jpg/375px-City_Lights_%281931_theatrical_poster_-_retouched%29.jpg
+42,Animales fantásticos: Los Secretos de Dumbledore,2022-04-13,https://th.bing.com/th?id=OSK.1B-jmyUlOAOOj-7uHxExUhKl4UmRH2RHUv5Rdr9WkQ8&w=113&h=170&c=7&o=6&pid=SANGAM
+43,Titanic,1997-12-19,"https://www.google.com/search?client=opera-gx&sca_esv=0fa8021822713b50&sxsrf=AHTn8zrFTCARJUPAqAptMjJZ5hwzKdUaAA:1741901183402&q=Titanic&stick=H4sIAAAAAAAAAONgFuLQz9U3SCnLTVGCsIriTbQkspOt9AtS8wtyUoFUUXF-nlVufllmavEiVvaQzJLEvMzkHayMANv4vJs9AAAA&sa=X&ved=2ahUKEwid3pTK_4eMAxWHle4BHRDdA4YQgOQBegQIURAG&biw=913&bih=923&dpr=1#&tbs=kac:1,kac_so:0"
+44,Isla de perros,2018-05-11,https://pics.filmaffinity.com/Isla_de_perros-327002857-large.jpg
+45,forrest gump,1994-07-06,https://www.imdb.com/title/tt0109830/
+46,Cenicienta ,2021-09-03,https://media.themoviedb.org/t/p/w600_and_h900_bestv2/oU0JRNrzpEWSH2pXzSiiNL76KSq.jpg
+47,El lobo de Wall Street,2014-10-01,https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg
+48,"Rojo, blanco y sangre azul",2023-08-11,https://media.themoviedb.org/t/p/w600_and_h900_bestv2/5XGt6CpWpkGnGOrrjfOMhNzDDSS.jpg
+49,Rango,2011-03-04,https://www.lavanguardia.com/peliculas-series/peliculas/rango-44896
+50,Bottoms,2023-08-25,https://media.themoviedb.org/t/p/w600_and_h900_bestv2/zAPPIeqB4cjXiS5qPFgeifndunG.jpg
+51,Rocky V,1990-11-16,https://pics.filmaffinity.com/rocky_v-872053278-large.jpg
+52,The Irishman,2019-11-01,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7N0sfsiduGq_eoTGEnR2sGK-4GCaVMlFn-jiti6jHyu0NstoPp2rFXxVO4pVhklQGfA3GX75cqUD8UE6CnahGQA58yFWp_9ZQvMnIYW7bf5bXALBK9k0KBnwseF3BgvSrcUBjxzcEco4/s1600/CriticaPeliculaTheIrishman.jpg
+53,Melancholia,2011-11-11,https://image.tmdb.org/t/p/original/fMneszMiQuTKY8JUXrGGB5vwqJf.jpg
+54,Samba,2015-10-23,https://image.tmdb.org/t/p/original/jvkT4d8vGmFPEBU6NwJfkU8fxFv.jpg
+55,Jane Eyre,1998-05-08,https://www.themoviedb.org/t/p/w1280/2vyt97wy8dEJYILoDoiPwTzLnzK.jpg
+56,Dog Day Afternoon,1975-09-21,https://m.media-amazon.com/images/S/pv-target-images/fb83a40517d055840aa9067b67ca29bf14681c85df5e255790aff9b7d04d09f6.jpg
+57,Contacto sangriento,1988-02-26,https://images.justwatch.com/poster/288768718/s166/contacto-sangriento.avif
+58,Son como niños,2010-07-23,https://www.google.com/url?sa=i&url=https%3A%2F%2Fdoblaje.fandom.com%2Fes%2Fwiki%2FSon_como_ni%25C3%25B1os_2&psig=AOvVaw1dC0MsauRvL1M-TjKWspRm&ust=1741988174691000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDCmvaBiIwDFQAAAAAdAAAAABAE
+59,Blade Runner 2049 ,2017-10-05,https://th.bing.com/th/id/OIP.D2juhjKcTlfhY3Xsjw5jAQHaK9?rs=1&pid=ImgDetMain
+60,Oppenheimer,2023-07-21,https://render.fineartamerica.com/images/rendered/default/poster/6/8/break/images/artworkimages/medium/3/oppenheimer-bo-kev.jpg
+61,Socios y sabuesos,1989-06-28,https://www.sensacine.com/peliculas/pelicula-31186/
+62,Suspiria,2018-11-1,https://image.tmdb.org/t/p/original/dzWTnkert9EoiPWldWJ15dnfAFl.jpg
+63,The nice guys,2016-05-20,https://vignette.wikia.nocookie.net/doblaje/images/5/53/DosTiposPeligrosos.jpg/revision/latest?cb=20160708233023&path-prefix=es
+64,Sin tiempo para morir,2021-09-30,https://m.media-amazon.com/images/M/MV5BZWZmYWE2MDItZmNmOS00MTk3LTlmZjAtNGI5YWUwNWEwMzg0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg
+65,Edge of Tomorrow,2014-06-06,"https://m.media-amazon.com/images/I/71G3W3wf-vL._AC_UF894,1000_QL80_.jpg"
+66,Entre navajas y secretos,2019-11-27,https://static.wikia.nocookie.net/doblaje/images/d/db/Knives_out.jpg/revision/latest/scale-to-width-down/1200?cb=20190918164309&path-prefix=es
+67,El resplandor,1980-05-23,https://upload.wikimedia.org/wikipedia/en/1/1d/The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg
+68,Bastardos sin gloria,2009-05-20,https://upload.wikimedia.org/wikipedia/en/c/c3/Inglourious_Basterds_poster.jpg
+69,Colateral,2004-08-06,https://upload.wikimedia.org/wikipedia/en/4/45/Collateral_%28Movie%29.jpg
+70,Batman:Inicia,2005-05-31,https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg
+71,Batman: El caballero de la noche,2008-07-14,https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg
+72,El hombre bicentenario,1999-12-07,https://upload.wikimedia.org/wikipedia/en/f/fc/Bicentennial_man_film_poster.jpg
+73,Breaking Bad,2008-01-20,https://wecanvas.com.mx/cdn/shop/products/BreakingBadPoster_1024x1024.jpg?v=1598592662
+74,Better Call Saul,2015-02-08,https://m.media-amazon.com/images/I/71o+WrVPLfL.jpg
+75,Titanes del pacifico,2013-07-01,https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9360990_p_v12_at.jpg
+76,El rey Arturo: la leyenda de la espada,2017-04-18,https://play.google.com/store/movies/details/El_Rey_Arturo_La_leyenda_de_la_espada_Subtitulada?id=GWiaI7yHwEc&hl=es_CO
+77,Top Gun: Maverick,2022-04-27,https://pics.filmaffinity.com/Top_Gun_Maverick-733802541-large.jpg
+78,Al filo del mañana,2014-05-28,https://upload.wikimedia.org/wikipedia/id/f/f9/Edge_of_Tomorrow_Poster.jpg
+79,Bohemian Rhapsody: la historia de Freddie Mercury,2018-10-24,https://moviefilmsla.wordpress.com/wp-content/uploads/2018/05/bohemian_rhapsody_posterlat1_mf.jpg
+80,Everything Everywhere All at Once,2022-04-08,https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRW6n0N5NVFJhglILQYRF9hswb8iQ4lOw3cF2Qy7pH9aRPLZEnGW9cUbWYhyqTko_VJL7D8zQ
+81,La ventajas de ser invisible,2012-10-26,https://moviepostermexico.com/cdn/shop/products/perks-being-wallflower-2013-emma-watson-31065470-1732-2560_1732x.jpg?v=1608528626
+82,The Batman,2022-02-23,https://images6.fanpop.com/image/photos/44100000/The-Batman-2022-Movie-Poster-the-batman-movie-44192645-1370-2048.jpg
+83,The Brutalist,2025-02-06,https://pics.filmaffinity.com/The_Brutalist-906818305-large.jpg
+84,How i met your mother,2005-09-19,OIP.hVxJUogIEVFPH9hv0KZVEAHaJ7 (474×635)
+85,Breakfast At Tiffany's,1962-04-26,https://image.tmdb.org/t/p/original/2veWzWF411ADomc5mJ3BETuG7hk.jpg
+86,Interstellar,2014-11-07,https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2021/08/19085635/gEU2QniE6E77NI6lCU6MxlNBvIx-scaled.jpg
+87,The Devil Wears Prada,2006-05-30,https://m.media-amazon.com/images/M/MV5BOWM3NTI3YWEtYjJmMy00M2U5LWI1NzEtZWM3ZDY2ZWNjOGRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg
+88,No se aceptan devoluciones,2013-09-20,https://pics.filmaffinity.com/No_se_aceptan_devoluciones-966231091-large.jpg
+89,The Office,2005-03-24,https://static0.srcdn.com/wordpress/wp-content/uploads/2023/03/the-office-poster-michael-scott.jpg
+90,Wicked,2024-11-24,https://th.bing.com/th/id/OIP.9HQ5SjLH3CmmSmBUBATGwwHaLo?w=546&h=858&rs=1&pid=ImgDetMain
+91,Halloween,1978-10-25,https://m.media-amazon.com/images/I/61tWG3N9bTL.jpg
+92,Secreto en la montaña,2006-03-03,https://play-lh.googleusercontent.com/Az5vaBfTn01oFFXbBWojbmrtzaWFi-Uk34mR4lWwpJMJd3F1M5aHwvb8amyJO7gmI30
+93,El Hombre Araña,2002-05-17,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzq7V6XczUVVsIHsrA4NOywbdrn_cZc3kA-g&s
+94,El Profe,1971-04-08,https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfvGXx5kUjnfIrIomXZcKx5_0LN5YrH3Mbufquaf6uUxprhkhs
+95,El bolero de Raquel,1957-10-09,https://pics.filmaffinity.com/El_bolero_de_Raquel-880146172-mmed.jpg
+96,La vuelta al mundo en ochenta días,1960-09-01,https://pics.filmaffinity.com/La_vuelta_al_mundo_en_80_daias-548246449-large.jpg
+97,Harry Potter y la piedra filosofal,2001-11-23,https://pics.filmaffinity.com/Harry_Potter_y_la_piedra_filosofal-154820574-large.jpg
+98,Harry Potter y el misterio del principe,2009-07-15,https://static.wikia.nocookie.net/doblaje/images/9/97/HP6CartelLatino1.png/revision/latest?cb=20160111021445&path-prefix=es
+99,Harry Potter y el prisionero de Azkaban,2004-06-04,https://static.wikia.nocookie.net/doblaje/images/0/0d/Harry_Potter_y_el_Prisionero_de_Azkaban.jpg/revision/latest?cb=20100430200943&path-prefix=es
+100,Bad Boys,2024-06-07,1920px-Bad_Boys_Ride_or_Die_logo.svg.png (1920×724)
+101,El Hombre Araña 2,2004-05-30,"https://m.media-amazon.com/images/I/81fsCuH2seL._AC_UF894,1000_QL80_.jpg"
+102,Daredevil,2015-04-10,https://pics.filmaffinity.com/Daredevil_Serie_de_TV-563047573-large.jpg
+103,Django Sin Cadenas,2012-12-25,https://es.wikipedia.org/wiki/Django_Unchained#/media/Archivo:Django_Unchained_logo.svg
+104,Batman,1966-07-30,https://static.wikia.nocookie.net/batman/images/7/7c/Batman_The_Movie_1966.jpg/revision/latest?cb=20170915142723&path-prefix=es
