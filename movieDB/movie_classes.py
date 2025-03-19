@@ -7,7 +7,7 @@ from datetime import datetime
 class Actor:
     ''' Clase para manejar la información de un actor '''
     def __init__(self, id_estrella, nombre, fecha_nacimiento, ciudad_nacimiento, url_imagen, username):
-        self.id_estrella       = id_estrella
+        self.id_estrella       = int(id_estrella)
         self.nombre            = nombre
         self.fecha_nacimiento  = fecha_nacimiento
         self.ciudad_nacimiento = ciudad_nacimiento
@@ -29,9 +29,9 @@ class Pelicula:
     ''' Clase para manejar la información de una película '''
     def __init__(self, id_pelicula, titulo_pelicula, fecha_lanzamiento, url_poster):
         ''' Inicializa la clase con los datos de la película '''
-        self.id_pelicula       = id_pelicula
+        self.id_pelicula       = int(id_pelicula)
         self.titulo_pelicula   = titulo_pelicula
-        self.fecha_lanzamiento = datetime.strptime(fecha_lanzamiento, "%Y-%m%-%d").date()
+        self.fecha_lanzamiento = datetime.strptime(fecha_lanzamiento, "%Y-%m-%d").date()
         self.url_poster        = url_poster
     def to_dict(self):
         ''' Devuelve un diccionario con la información de la película '''
@@ -41,14 +41,17 @@ class Pelicula:
             'fecha_lanzamiento': self.fecha_lanzamiento.strftime("%Y-%m-%d"),
             'url_poster': self.url_poster
         }
+    def __str__(self):
+        ''' Devuelve una representación en string de la película '''
+        return f"{self.titulo_pelicula} ({self.fecha_lanzamiento.year})"
 
 class Relacion:
     ''' Clase para manejar la relación entre actores y películas '''
     def __init__(self, id_relacion, id_estrella, id_pelicula):
         ''' Inicializa la clase con los datos de la relación '''
-        self.id_relacion = id_relacion
-        self.id_estrella = id_estrella
-        self.id_pelicula = id_pelicula
+        self.id_relacion = int(id_relacion)
+        self.id_estrella = int(id_estrella)
+        self.id_pelicula = int(id_pelicula)
         
     def to_dict(self):
         ''' Devuelve un diccionario con la información de la relación '''
@@ -99,6 +102,7 @@ class SistemaCine:
                      actor = Actor(**row)
                      self.actores[actor.id_estrella] = actor
                  elif clase == Pelicula:
+                     print(row)
                      pelicula = Pelicula(**row)
                      self.peliculas[pelicula.id_pelicula] = pelicula
                  elif clase == Relacion:
@@ -107,6 +111,11 @@ class SistemaCine:
                  elif clase == User:
                      user = User(**row)
                      self.usuarios[user.username] = user
+    
+    def obtener_peliculas_por_actor(self, id_estrella):
+        ''' Devuelve una lista de películas en las que ha participado un actor '''
+        ids_peliculas = [rel.id_pelicula for rel in self.relaciones.values() if rel.id_estrella == id_estrella]
+        return [self.peliculas[id_pelicula] for id_pelicula in ids_peliculas]
 
 if __name__ == '__main__':
     #archivo = "datos/actores.csv"
@@ -122,4 +131,7 @@ if __name__ == '__main__':
     actores = sistema.actores
     for id_estrella, actor in actores.items():
         print(f"{id_estrella}: {actor.nombre:35s} - {actor.fecha_nacimiento}")
-    
+    lista_peliculas = sistema.obtener_peliculas_por_actor(1)
+    for pelicula in lista_peliculas:
+        print(pelicula)
+    print(len(lista_peliculas))
