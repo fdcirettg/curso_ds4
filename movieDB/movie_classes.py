@@ -52,7 +52,7 @@ class Relacion:
         self.id_relacion = int(id_relacion)
         self.id_estrella = int(id_estrella)
         self.id_pelicula = int(id_pelicula)
-        
+
     def to_dict(self):
         ''' Devuelve un diccionario con la información de la relación '''
         return {
@@ -69,17 +69,16 @@ class User:
         self.nombre_completo = nombre_completo
         self.email           = email
         self.password        = password
-    
+
     def to_dict(self):
         ''' Devuelve un diccionario con la información del usuario '''
         return {
             'username': self.username,
             'nombre_completo': self.nombre_completo,
             'email': self.email,
-            'password': self.password,
-            'admin': self.admin
+            'password': self.password
         }
-    
+
     def hash_string(self, string):
         ''' Devuelve el hash de un string '''
         return hashlib.sha256(string.encode()).hexdigest()
@@ -92,31 +91,55 @@ class SistemaCine:
         self.peliculas = {}
         self.relaciones = {}
         self.usuarios = {}
+        self.idx_actor = 0
+        self.idx_pelicula = 0
+        self.idx_relacion = 0
+        self.usuario_actual = None
 
     def cargar_csv(self, archivo, clase):
         ''' Carga los datos de un archivo CSV en la base de datos'''
         with open(archivo, encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                 if clase == Actor:
-                     actor = Actor(**row)
-                     self.actores[actor.id_estrella] = actor
-                 elif clase == Pelicula:
-                     print(row)
-                     pelicula = Pelicula(**row)
-                     self.peliculas[pelicula.id_pelicula] = pelicula
-                 elif clase == Relacion:
-                     relacion = Relacion(**row)
-                     self.relaciones[relacion.id_relacion] = relacion
-                 elif clase == User:
-                     user = User(**row)
-                     self.usuarios[user.username] = user
-    
+                if clase == Actor:
+                    actor = Actor(**row)
+                    self.actores[actor.id_estrella] = actor
+                elif clase == Pelicula:
+                    print(row)
+                    pelicula = Pelicula(**row)
+                    self.peliculas[pelicula.id_pelicula] = pelicula
+                elif clase == Relacion:
+                    relacion = Relacion(**row)
+                    self.relaciones[relacion.id_relacion] = relacion
+                elif clase == User:
+                    user = User(**row)
+                    self.usuarios[user.username] = user
+        if clase == Actor:
+            self.idx_actor = max(self.actores.keys()) if self.actores else 0
+        elif clase == Pelicula:
+            self.idx_pelicula = max(self.peliculas.keys()) if self.peliculas else 0
+        elif clase == Relacion:
+            self.idx_relacion = max(self.relaciones.keys()) if self.relaciones else 0
+
     def obtener_peliculas_por_actor(self, id_estrella):
         ''' Devuelve una lista de películas en las que ha participado un actor '''
         ids_peliculas = [rel.id_pelicula for rel in self.relaciones.values() if rel.id_estrella == id_estrella]
         return [self.peliculas[id_pelicula] for id_pelicula in ids_peliculas]
+    
+    def obtener_actores_por_pelicula(self, id_pelicula):
+        ''' Devuelve una lista de actores que han participado en una película '''
+        ids_actores = [rel.id_estrella for rel in self.relaciones.values() if rel.id_pelicula == id_pelicula]
+        return [self.actores[id_estrella] for id_estrella in ids_actores]
 
+    def login(self, username, password):
+        ''' Inicia sesión en el sistema '''
+        if username in self.usuarios:
+            user = self.usuarios[username]
+            if user.hash_string(password) == user.password:
+                self.usuario_actual = user
+                return True
+        return False
+    
 if __name__ == '__main__':
     #archivo = "datos/actores.csv"
     archivo_actores = "datos/movies_db - actores.csv"
@@ -135,3 +158,14 @@ if __name__ == '__main__':
     for pelicula in lista_peliculas:
         print(pelicula)
     print(len(lista_peliculas))
+    lista_actores = sistema.obtener_actores_por_pelicula(1)
+    for actor in lista_actores:
+        print(actor.nombre)
+    u = sistema.usuarios['fcirettg']
+    print(type(u))
+    print(u.username)
+    print(u.password)
+    print(u.hash_string(u.password))
+    exito = sistema.login('fcirettg', '123456')
+    print(exito)
+    print(sistema.usuario_actual.username)
