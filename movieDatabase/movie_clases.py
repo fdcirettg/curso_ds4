@@ -106,13 +106,13 @@ class SistemaCine:
             for row in reader:
                 if clase == Actor:
                     actor = Actor(**row)
-                    self.actores[self.idx_actor] = actor
+                    self.actores[actor.id_estrella] = actor
                 elif clase == Pelicula:
                     pelicula = Pelicula(**row)
-                    self.peliculas[self.idx_pelicula] = pelicula
+                    self.peliculas[pelicula.id_pelicula] = pelicula
                 elif clase == Relacion:
                     relacion = Relacion(**row)
-                    self.relaciones[self.idx_relacion] = relacion
+                    self.relaciones[relacion.id_relacion] = relacion
                 elif clase == User:
                     user = User(**row)
                     self.usuarios[user.username] = user
@@ -125,13 +125,13 @@ class SistemaCine:
     
     def obtener_peliculas_por_actor(self, id_estrella):
         ''' Método para obtener las películas de un actor'''
-        ids_peliculas = []
-        for k,v in self.relaciones.items():
-            print(k, v.id_pelicula, v.id_estrella)
-            if v.id_estrella == id_estrella:
-                ids_peliculas.append(v.id_pelicula)
-        print(ids_peliculas)
-        #ids_peliculas = [relacion.id_pelicula for relacion in self.relaciones.values() if relacion.id_estrella == id_estrella]
+        #ids_peliculas = []
+        #for k,v in self.relaciones.items():
+        #    print(k, v.id_pelicula, v.id_estrella)
+        #    if v.id_estrella == id_estrella:
+        #        ids_peliculas.append(v.id_pelicula)
+        #print(ids_peliculas)
+        ids_peliculas = [relacion.id_pelicula for relacion in self.relaciones.values() if relacion.id_estrella == id_estrella]
         
         return [self.peliculas[id_pelicula] for id_pelicula in ids_peliculas] 
 
@@ -143,7 +143,7 @@ if __name__ == '__main__':
     sistema.cargar_csv('datos/movies_db - users.csv', User)
     lista_peliculas = sistema.obtener_peliculas_por_actor(1)
     for pelicula in lista_peliculas:
-        print(f"{pelicula.id}:{pelicula.titulo_pelicula} ({pelicula.fecha_lanzamiento.year})")
+        print(f"{pelicula.id_pelicula}:{pelicula.titulo_pelicula} ({pelicula.fecha_lanzamiento.year})")
     #print(sistema.actores)
     #print(sistema.peliculas)
     #print(sistema.relaciones)
