@@ -125,16 +125,14 @@ class SistemaCine:
     
     def obtener_peliculas_por_actor(self, id_estrella):
         ''' Método para obtener las películas de un actor'''
-        #ids_peliculas = []
-        #for k,v in self.relaciones.items():
-        #    print(k, v.id_pelicula, v.id_estrella)
-        #    if v.id_estrella == id_estrella:
-        #        ids_peliculas.append(v.id_pelicula)
-        #print(ids_peliculas)
         ids_peliculas = [relacion.id_pelicula for relacion in self.relaciones.values() if relacion.id_estrella == id_estrella]
-        
         return [self.peliculas[id_pelicula] for id_pelicula in ids_peliculas] 
 
+    def obtener_actores_por_pelicula(self, id_pelicula):
+        ''' Método para obtener los actores de una película'''
+        ids_actores = [relacion.id_estrella for relacion in self.relaciones.values() if relacion.id_pelicula == id_pelicula]
+        return [self.actores[id_estrella] for id_estrella in ids_actores]
+    
 if __name__ == '__main__':
     sistema = SistemaCine()
     sistema.cargar_csv('datos/movies_db - actores.csv', Actor)
@@ -148,4 +146,15 @@ if __name__ == '__main__':
     #print(sistema.peliculas)
     #print(sistema.relaciones)
     #print(sistema.usuarios)
+    print("---------------------")
+    lista_actores = sistema.obtener_actores_por_pelicula(1)
+    for actor in lista_actores:
+        print(f"{actor.id_estrella}:{actor.nombre} ({actor.fecha_nacimiento.year})")
+    print("---------------------")
+    u = sistema.usuarios['fcirettg']
+    print(u.username)
+    print(u.nombre_completo)
+    print(u.email)
+    print(u.password)
+    print(f'password: {u.hash_password(u.password)}')
     print("Listo!")
