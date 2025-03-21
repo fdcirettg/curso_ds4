@@ -10,7 +10,8 @@ id_estrella,nombre,fecha_nacimiento,ciudad_nacimiento,url_imagen,username
 9,Ryan Reinolds,1976-10-23,"Vancouver, Canada",https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTq-oZ3cE1Bjh1IT9SL6IJCj9of3BK-Y28DYlKUa2p9j7GX_NhXTxtzAb5bMb6SCQSwejl4EtOlhlRBIU3R_8GY5_khi3L1oQ,Genaro
 10,Gal Gadot,1985-04-30,"Petaj Tikva, Israel",https://upload.wikimedia.org/wikipedia/commons/6/6a/Gal_Gadot_2018_cropped_retouched.jpg,Genaro
 11,Jaime Foxx,1967-12-13,"Terrell, Texas, Estados Unidos",https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQcf93dNqYZynmztDYBSzf0WodHoLpybg04aUzjBDADSZQIgBThA53JAWMU68GzKqoli0EL_Z-44Z35N4_x0cwfKg,Eduardo
-12,"Gong Yoo",1979-07-10,"Busan, Corea del sur","https://tecolotito.elsiglodedurango.com.mx/cdn-cgi/image/format=auto,width=1024/i/2025/01/1294781.jpeg",Almejandra
+12,"Gong Yoo
+",1979-07-10,"Busan, Corea del sur","https://tecolotito.elsiglodedurango.com.mx/cdn-cgi/image/format=auto,width=1024/i/2025/01/1294781.jpeg",Almejandra
 13,Jack Nicholson,1937-04-22," Neptune City, Nueva Jersey, Estados Unidos",https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSUL5ASLpwEPh8xhOe6npa6Ke-A6ElR_3v_-bK7r49MUbDUiBSJE3CeurvTHvxwf0UD3hjwkWLAru6lWfbXK9dYw,Edd
 14,Matthew McConaughey,1969-11-04,"Uvalde, Texas, Estados Unidos",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4iaiNI6s5_t-MH1cGUm4o0RL5t32tWw5efg&s,Edd
 15,Jerry Trainor,1977-1-21,"San Diego, California",https://mx.web.img3.acsta.net/r_1280_720/medias/nmedia/18/89/81/86/20067970.jpg,Héctor
@@ -62,3 +63,6 @@ id_estrella,nombre,fecha_nacimiento,ciudad_nacimiento,url_imagen,username
 61,Jamie Lee Curtis,1958-11-22,"Santa Mónica, California, Estados Unidos",https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSxz-oiW_znECXcEFYZo4zxtXBJf9fNRi9K6I-RwEKyDR4xiWCSXsNkilo6AKbOB3FBmlP2C7QaY4chLO_VYgOuzd1MmXfSyTk4werHJ6k,Edd
 62,Alfred Molina,1953-05-24,"Paddington, Londres, Reino Unido",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1sSbEjDJdV8ZhNmD7z82xk3_vaNUSI3mH4YEzEQUU3KI1StfPl29a5ZlaioHnIvRQan9N4mSykHdE20jFbC7EZw,Edd
 63,César Romero,1907-02-15,"Nueva York, Nueva York, Estados Unidos",https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fyvwhs9y6n4xc1.jpeg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D1784abbd446b99a55f9479aeacc3bd01d1962580,Edd
+64,Olivia Rodrigo,2003-02-20,"Temecula, California",https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/OlivaRO2150524_%2838%29_%2853727178601%29_%28cropped%29.jpg/800px-OlivaRO2150524_%2838%29_%2853727178601%29_%28cropped%29.jpg,fcirettg
+65,Sabrina Carpenter,1999-05-11,"Lehigh Valley, Pennsylvania, USA",https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FSabrina_Carpenter&psig=AOvVaw2nEY6lkYMlvwHY45HzpIx6&ust=1742665819074000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJim2Zrem4wDFQAAAAAdAAAAABAE,fcirettg
+66,Millie Bobby Brown,2004-02-19,Marbella,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Millie_Bobby_Brown_-_MBB_-_Portrait_1_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention.jpg/640px-Millie_Bobby_Brown_-_MBB_-_Portrait_1_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention.jpg,fcirettg

@@ -121,6 +121,15 @@ class SistemaCine:
         elif clase == Relacion:
             self.idx_relacion = max(self.relaciones.keys()) if self.relaciones else 0
 
+    def guardar_csv(self, archivo, objetos):
+        if not objetos:
+            return
+        with open(archivo, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=next(iter(objetos.values())).to_dict().keys())
+            writer.writeheader()
+            for obj in objetos.values():
+                writer.writerow(obj.to_dict())
+
     def obtener_peliculas_por_actor(self, id_estrella):
         ''' Devuelve una lista de películas en las que ha participado un actor '''
         ids_peliculas = [rel.id_pelicula for rel in self.relaciones.values() if rel.id_estrella == id_estrella]
@@ -140,12 +149,19 @@ class SistemaCine:
                 return True
         return False
     
+    def agregar_actor(self,nombre,fecha_nacimiento,ciudad_nacimiento,url_imagen):
+        ''' Agrega un actor a la base de datos '''
+        if self.usuario_actual is not None:
+            self.idx_actor += 1
+            actor = Actor(self.idx_actor,nombre,fecha_nacimiento,ciudad_nacimiento,url_imagen,self.usuario_actual.username)
+            self.actores[self.idx_actor] = actor
+    
 if __name__ == '__main__':
     #archivo = "datos/actores.csv"
-    archivo_actores = "datos/movies_db - actores.csv"
-    archivo_peliculas = "datos/movies_db - peliculas.csv"
+    archivo_actores    = "datos/movies_db - actores.csv"
+    archivo_peliculas  = "datos/movies_db - peliculas.csv"
     archivo_relaciones = "datos/movies_db - relacion.csv"
-    archivo_usuarios = "datos/movies_db - users.csv"
+    archivo_usuarios   = "datos/movies_db - users_hashed.csv"
     sistema = SistemaCine()
     sistema.cargar_csv(archivo_actores, Actor)
     sistema.cargar_csv(archivo_peliculas, Pelicula)
@@ -161,11 +177,24 @@ if __name__ == '__main__':
     lista_actores = sistema.obtener_actores_por_pelicula(1)
     for actor in lista_actores:
         print(actor.nombre)
+
+    #for u in sistema.usuarios.values():
+    #    u.password = u.hash_string(u.password)
+    #hashed_users = "datos/movies_db - users_hashed.csv"
+    #sistema.guardar_csv(hashed_users, sistema.usuarios)
+    #print(f'Se escribió el archivo {hashed_users}')
     u = sistema.usuarios['fcirettg']
     print(type(u))
     print(u.username)
     print(u.password)
     print(u.hash_string(u.password))
-    exito = sistema.login('fcirettg', '123456')
+    exito = sistema.login('fcirettg', '12345')
     print(exito)
-    print(sistema.usuario_actual.username)
+    if (exito):
+        print(sistema.usuario_actual.username)
+    else:
+        print('Usuario o contraseña incorrectos')
+    sistema.agregar_actor('Millie Bobby Brown', '2004-02-19', 'Marbella', 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Millie_Bobby_Brown_-_MBB_-_Portrait_1_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention.jpg/640px-Millie_Bobby_Brown_-_MBB_-_Portrait_1_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention.jpg')
+    for actor in sistema.actores.values():
+        print(f'{actor.id_estrella}: {actor.nombre:35s} - {actor.fecha_nacimiento}')
+    sistema.guardar_csv(archivo_actores, sistema.actores)
