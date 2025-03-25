@@ -1,126 +1,127 @@
-id_relacion,id_pelicula,id_estrella
-1,1,1
-2,1,2
-3,2,1
-4,2,2
-5,3,1
-6,3,2
-7,4,2
-8,6,8
-9,7,8
-10,8,8
-11,16,6
-12,14,5
-13,15,20
-14,21,23
-15,22,23
-16,1,28
-17,2,28
-18,3,28
-19,28,21
-20,30,26
-21,30,28
-22,12,12
-23,13,19
-24,34,7
-25,35,7
-26,36,7
-27,37,7
-28,11,9
-29,31,9
-30,33,12
-31,18,10
-32,32,21
-33,19,21
-34,39,29
-35,10,18
-36,19,18
-37,32,18
-38,43,34
-39,40,8
-40,47,19
-41,41,17
-42,38,51
-43,5,16
-44,30,32
-45,49,20
-46,23,15
-47,24,15
-48,25,15
-49,9,7
-50,17,7
-51,20,7
-52,46,30
-53,48,30
-54,50,30
-55,47,34
-56,100,57
-57,61,33
-58,11,10
-59,58,35
-60,26,16
-61,53,41
-62,54,41
-63,55,41
-64,45,33
-65,13,32
-66,38,16
-67,5,25
-68,44,25
-69,65,25
-70,60,18
-71,60,31
-72,65,43
-73,60,36
-74,65,36
-75,27,4
-76,52,4
-77,56,4
-78,59,26
-79,64,26
-80,66,26
-81,75,44
-82,76,44
-83,77,45
-84,78,45
-85,79,49
-86,80,53
-87,54,85
-88,52,81
-89,51,83
-90,90,57
-91,73,24
-92,74,24
-93,73,27
-94,94,39
-95,95,39
-96,96,39
-97,97,40
-98,98,40
-99,99,40
-100,46,82
-101,86,50
-102,87,50
-103,47,88
-104,84,48
-105,56,100
-106,55,89
-107,102,59
-108,93,60
-109,101,60
-110,101,62
-111,91,61
-112,71,58
-113,71,31
-114,70,31
-115,67,13
-116,86,14
-117,72,22
-118,74,27
-119,68,42
-120,103,42
-121,69,11
-122,103,11
-123,69,45
-124,92,58
-125,104,63
+id_relacion,id_estrella,id_pelicula,personaje
+1,1,1,Luke Skywalker
+2,2,1,Lea Organa
+3,1,2,Luke Skywalker
+4,2,2,Lea Organa
+5,1,3,Luke Skywalker
+6,2,3,Lea Organa
+7,2,4,Terapista (sin créditos)
+8,8,6,Lady Bird McPherson
+9,8,7,Eilis
+10,8,8,Jo March
+11,6,16,Terminator
+12,5,14,Cassie Howard
+13,20,15,Edward Scissorhands
+14,23,21,Faith
+15,23,22,Jessi
+16,28,1,Han Solo
+17,28,2,Han Solo
+18,28,3,Han Solo
+19,21,28,Johnny Storm
+20,26,30,Joi
+21,28,30,Rick Deckard
+22,12,12,Kim Woo-Jin
+23,19,13,Barbie
+24,7,34,Nadine
+25,7,35,Zoey
+26,7,36,Louise
+27,7,37,Emily Dickinson
+28,9,11,Noolan Booth
+29,9,31,One
+30,12,33,Seok-woo
+31,10,18,Diana
+32,21,32,Steve Rogers (Capitán América)
+33,21,19,Steve Rogers (Capitán América)
+34,29,39,Peter Parker
+35,18,10,Tony Stark (Iron Man)
+36,18,19,Tony Stark (Iron Man)
+37,18,32,Tony Stark (Iron Man)
+38,34,43,Jack Dawson
+39,8,40,Agatha
+40,19,47,Naomi Lapaglia
+41,17,41,A tramp
+42,16,38,Shadow
+43,16,5,John Constantine
+44,32,30,K 
+45,20,49,Rango
+46,15,23,Spencer Shay
+47,15,24,Tommy
+48,15,25,Vinnie Bassett
+49,7,9,Gwen Stacy
+50,7,17,Emily  
+51,7,20,Vi 
+52,30,46,Prince Robert
+53,30,48,Prince Henry
+54,30,50,Jeff
+55,34,47,Jordan Belfort
+56,56,100,Mike Lowrey
+57,33,61,Det. Scott Turner
+58,10,11,The Bishop
+59,35,58,Lenny Feder
+60,16,26,Thomas A. Anderson (Neo)
+61,41,53,Claire
+62,41,54,Alice
+63,41,55,Jane Eyre
+64,33,45,Forrest Gump
+65,32,13,Ken
+66,16,38,Shadow
+67,25,5,Gabriel
+68,25,44,Oracle
+69,25,65,Desconocido
+70,18,60,Lewis Strauss
+71,31,60,J. Robert Oppenheimer
+72,43,65,
+73,36,60,Kitty Oppenheimer
+74,36,65,Rita
+75,4,27,Michael Corleone
+76,4,52,Jimmy Hoffa
+77,4,56,Sonny
+78,26,59,Joi
+79,26,64,Paloma
+80,26,66,Marta Cabrera
+81,44,75,Raleigh Becket
+82,44,76,Arthur
+83,45,77,Maverick
+84,45,78,Cage
+85,49,79,Freddie Mercury
+86,53,80,Evelyn Wang
+87,54,85,Holly Golightly
+88,52,81,Patrick
+89,51,83,László Tóth
+90,90,57,Galinda
+91,24,73,Saul Godman
+92,24,74,Saul Godman
+93,27,73,Walter White
+94,39,94,Prof. Sócrates García
+95,39,95,El Bolero
+96,39,96,Passepartout
+97,40,97,Hermione Granger
+98,40,98,Hermione Granger
+99,40,99,Hermione Granger
+100,46,82,Bruce Wayne
+101,50,86,Brand
+102,50,87,Andy Sachs
+103,47,88,Valentín
+104,48,84,Neil Patrick Harris
+105,56,100,Mike Lowrey
+106,55,89,Michael Scott
+107,59,102,Matt Murdock
+108,60,93,Norman Osborn
+109,60,101,Norman Osborn
+110,62,101,Doc Ock
+111,61,91,Laurie Strode
+112,58,71,Joker
+113,31,71,Dr. Jonathan Crane (Scarecrow)
+114,31,70,Dr. Jonathan Crane (Scarecrow)
+115,13,67,Jack Torrance
+116,14,86,Cooper
+117,22,72,Andrew
+118,27,74,Walter White
+119,42,68,Col. Hans Landa
+120,42,103,Dr. King Schultz
+121,11,69,Max
+122,11,103,Django
+123,45,69,Vincent
+124,58,92,Ennis Del Mar
+125,63,104,The Joker
+126,69,36,Rita

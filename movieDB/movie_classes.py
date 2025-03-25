@@ -47,11 +47,12 @@ class Pelicula:
 
 class Relacion:
     ''' Clase para manejar la relación entre actores y películas '''
-    def __init__(self, id_relacion, id_estrella, id_pelicula):
+    def __init__(self, id_relacion, id_estrella, id_pelicula,personaje):
         ''' Inicializa la clase con los datos de la relación '''
         self.id_relacion = int(id_relacion)
         self.id_estrella = int(id_estrella)
         self.id_pelicula = int(id_pelicula)
+        self.personaje   = personaje
 
     def to_dict(self):
         ''' Devuelve un diccionario con la información de la relación '''
@@ -59,6 +60,7 @@ class Relacion:
             'id_relacion': self.id_relacion,
             'id_estrella': self.id_estrella,
             'id_pelicula': self.id_pelicula,
+            'personaje'  : self.personaje
         }
 
 class User:
@@ -155,7 +157,26 @@ class SistemaCine:
             self.idx_actor += 1
             actor = Actor(self.idx_actor,nombre,fecha_nacimiento,ciudad_nacimiento,url_imagen,self.usuario_actual.username)
             self.actores[self.idx_actor] = actor
-    
+
+    def agregar_pelicula(self, titulo_pelicula, fecha_lanzamiento, url_poster):
+        if self.usuario_actual:
+            new_id = self.idx_pelicula + 1
+            self.idx_pelicula = new_id
+            pelicula = Pelicula(new_id, titulo_pelicula, fecha_lanzamiento, url_poster)
+            self.peliculas[pelicula.id_pelicula] = pelicula
+
+    def agregar_relacion(self, id_pelicula, id_estrella,personaje):
+        if self.usuario_actual:
+            new_id = self.idx_relacion + 1
+            self.idx_relacion = new_id
+            relacion = Relacion(new_id, id_pelicula, id_estrella,personaje)
+            self.relaciones[relacion.id_relacion] = relacion
+
+    def agregar_usuario(self, username, nombre_completo, email, password):
+        if self.usuario_actual:
+            user = User(username, nombre_completo, email, password)
+            self.usuarios[user.username] = user
+
 if __name__ == '__main__':
     #archivo = "datos/actores.csv"
     archivo_actores    = "datos/movies_db - actores.csv"
@@ -192,9 +213,12 @@ if __name__ == '__main__':
     print(exito)
     if (exito):
         print(sistema.usuario_actual.username)
+        sistema.agregar_pelicula('La vida es bella', '1997-12-20', 'https://www.imdb.com/title/tt0118799/mediaviewer/rm4282021376')
+        sistema.agregar_relacion(69,36,'Rita')
+        sistema.agregar_usuario('messi','Lionel Messi','messi@gmail.com','12345')
+        sistema.guardar_csv(archivo_peliculas, sistema.peliculas)
+        sistema.guardar_csv(archivo_relaciones, sistema.relaciones)
+        sistema.guardar_csv(archivo_usuarios, sistema.usuarios)
     else:
         print('Usuario o contraseña incorrectos')
-    sistema.agregar_actor('Millie Bobby Brown', '2004-02-19', 'Marbella', 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Millie_Bobby_Brown_-_MBB_-_Portrait_1_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention.jpg/640px-Millie_Bobby_Brown_-_MBB_-_Portrait_1_-_SFM5_-_July_10%2C_2022_at_Stranger_Fan_Meet_5_People_Convention.jpg')
-    for actor in sistema.actores.values():
-        print(f'{actor.id_estrella}: {actor.nombre:35s} - {actor.fecha_nacimiento}')
-    sistema.guardar_csv(archivo_actores, sistema.actores)
+    print("listo!")

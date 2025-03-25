@@ -9,7 +9,7 @@ id_pelicula,titulo_pelicula,fecha_lanzamiento,url_poster
 8,Little Women,2019-12-25,https://www.themoviedb.org/t/p/w1280/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg
 9, Spider-Man: Across the Spider-Verse,2023-06-01,https://www.themoviedb.org/t/p/w1280/37WcNMgNOMxdhT87MFl7tq7FM1.jpg
 10,Iron Man,2008-04-30,https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg
-11,Alerta Roja,2021-11-4,https://es.web.img2.acsta.net/pictures/21/10/21/15/51/3458190.jpg
+11,Alerta Roja,2021-11-04,https://es.web.img2.acsta.net/pictures/21/10/21/15/51/3458190.jpg
 12,Goblin,2016-12-02,https://miro.medium.com/v2/resize:fit:736/1*4FaGGN4RGH3Q3CuMnikunA.jpeg
 13,Barbie,2021-07-21,5479684.jpg (1200×1725)
 14,Euphoria,2019-06-01,https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Fes%2Ftitle%2Ftt8772296%2F&psig=AOvVaw1qutpm8n148WWDl078H-ZW&ust=1741987288326000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIiVp-r-h4wDFQAAAAAdAAAAABAE
@@ -23,7 +23,7 @@ id_pelicula,titulo_pelicula,fecha_lanzamiento,url_poster
 22,Emilia Pérez,2024-11-13,https://image.tmdb.org/t/p/original/kKmglIyqkpLOMXe53lSYSNO9au.jpg
 23,iCarly,2007-09-08,"https://m.media-amazon.com/images/I/615R83HI7xL._AC_UF894,1000_QL80_.jpg"
 24,Evolution,2001-06-08,https://m.media-amazon.com/images/I/51inm+CvmgL.jpg
-25,Wendell & Vinnie,2013-2-13,https://pics.filmaffinity.com/wendell_vinnie_aka_wendell_and_vinnie_tv_series-695823332-large.jpg
+25,Wendell & Vinnie,2013-02-13,https://pics.filmaffinity.com/wendell_vinnie_aka_wendell_and_vinnie_tv_series-695823332-large.jpg
 26,Matrix,1999-05-21,https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/220px-The_Matrix_Poster.jpg
 27,El padrino,1972-03-24,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8F9hpABISwNl4sXh8a2lpL-EoQ7EUkDYicQ&s
 28,Los 4 fantasticos,2005-07-08,https://m.media-amazon.com/images/M/MV5BNjY2YmZmMzUtZWY5Mi00MzI3LTljOTgtYTMwMWY1ODI5ZWY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg
@@ -35,7 +35,7 @@ id_pelicula,titulo_pelicula,fecha_lanzamiento,url_poster
 34,The Edge of Seventeen,2016-11-18,https://www.themoviedb.org/t/p/w1280/1LyFay8CGf8mhPRDrMe0ljWw9GK.jpg
 35,True Grit,2010-12-14,https://www.themoviedb.org/t/p/w1280/tCrB8pcjadZjsDk7rleGJaIv78k.jpg
 36,The Keeping Room,2014-09-25,https://www.themoviedb.org/t/p/w1280/5hj2RoLiD31AuUfnYKA2HBlIb6n.jpg
-37,Dickinson,2019-11-1,https://www.themoviedb.org/t/p/w1280/dDdcAfHBZ6Aalv53iR6o35CSLWA.jpg
+37,Dickinson,2019-11-01,https://www.themoviedb.org/t/p/w1280/dDdcAfHBZ6Aalv53iR6o35CSLWA.jpg
 38,Sonic 3: la pelicula,2024-12-25,https://m.media-amazon.com/images/M/MV5BYzMxOTYyY2YtNzNlMy00MGEwLTg0YjUtODAwNjgyNWFmZDIwXkEyXkFqcGc@._V1_.jpg
 39,Spider-Man: Homecoming,2017-07-07,https://upload.wikimedia.org/wikipedia/en/f/f9/Spider-Man_Homecoming_poster.jpg
 40,El gran hotel Budapest,2014-03-06,https://pics.filmaffinity.com/El_Gran_Hotel_Budapest-201169276-large.jpg
@@ -60,7 +60,7 @@ id_pelicula,titulo_pelicula,fecha_lanzamiento,url_poster
 59,Blade Runner 2049 ,2017-10-05,https://th.bing.com/th/id/OIP.D2juhjKcTlfhY3Xsjw5jAQHaK9?rs=1&pid=ImgDetMain
 60,Oppenheimer,2023-07-21,https://render.fineartamerica.com/images/rendered/default/poster/6/8/break/images/artworkimages/medium/3/oppenheimer-bo-kev.jpg
 61,Socios y sabuesos,1989-06-28,https://www.sensacine.com/peliculas/pelicula-31186/
-62,Suspiria,2018-11-1,https://image.tmdb.org/t/p/original/dzWTnkert9EoiPWldWJ15dnfAFl.jpg
+62,Suspiria,2018-11-01,https://image.tmdb.org/t/p/original/dzWTnkert9EoiPWldWJ15dnfAFl.jpg
 63,The nice guys,2016-05-20,https://vignette.wikia.nocookie.net/doblaje/images/5/53/DosTiposPeligrosos.jpg/revision/latest?cb=20160708233023&path-prefix=es
 64,Sin tiempo para morir,2021-09-30,https://m.media-amazon.com/images/M/MV5BZWZmYWE2MDItZmNmOS00MTk3LTlmZjAtNGI5YWUwNWEwMzg0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg
 65,Edge of Tomorrow,2014-06-06,"https://m.media-amazon.com/images/I/71G3W3wf-vL._AC_UF894,1000_QL80_.jpg"
@@ -103,3 +103,4 @@ id_pelicula,titulo_pelicula,fecha_lanzamiento,url_poster
 102,Daredevil,2015-04-10,https://pics.filmaffinity.com/Daredevil_Serie_de_TV-563047573-large.jpg
 103,Django Sin Cadenas,2012-12-25,https://es.wikipedia.org/wiki/Django_Unchained#/media/Archivo:Django_Unchained_logo.svg
 104,Batman,1966-07-30,https://static.wikia.nocookie.net/batman/images/7/7c/Batman_The_Movie_1966.jpg/revision/latest?cb=20170915142723&path-prefix=es
+105,La vida es bella,1997-12-20,https://www.imdb.com/title/tt0118799/mediaviewer/rm4282021376
