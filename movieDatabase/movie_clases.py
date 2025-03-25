@@ -50,18 +50,20 @@ class Pelicula:
     
 class Relacion:
     ''' Clase Relación: Relación entre actores y películas'''
-    def __init__(self,id_relacion,id_pelicula,id_estrella):
+    def __init__(self,id_relacion,id_pelicula,id_estrella, personaje):
         ''' Constructor de la clase Relación'''
         self.id_relacion = int(id_relacion)
         self.id_pelicula = int(id_pelicula)  
         self.id_estrella = int(id_estrella)
+        self.personaje   = personaje
     
     def to_dict(self):
         ''' Retorna un diccionario con los atributos del objeto Relación'''
         return {
             'id_relacion': self.id_relacion,
             'id_pelicula': self.id_pelicula,
-            'id_estrella': self.id_estrella
+            'id_estrella': self.id_estrella,
+            'personaje'  : self.personaje
         }
 
 class User:
@@ -163,11 +165,11 @@ class SistemaCine:
             pelicula = Pelicula(new_id, titulo_pelicula, fecha_lanzamiento, url_poster)
             self.peliculas[pelicula.id_pelicula] = pelicula
     
-    def agregar_relacion(self, id_pelicula, id_estrella):
+    def agregar_relacion(self, id_pelicula, id_estrella,personaje):
         if self.usuario_actual:
             new_id = self.idx_relacion + 1
             self.idx_relacion = new_id
-            relacion = Relacion(new_id, id_pelicula, id_estrella)
+            relacion = Relacion(new_id, id_pelicula, id_estrella,personaje)
             self.relaciones[relacion.id_relacion] = relacion
     
     def agregar_usuario(self, username, nombre_completo, email, password):
@@ -220,7 +222,10 @@ if __name__ == '__main__':
         #sistema.agregar_usuario('messi10','Lionel Messi','messi@gmail.com','12345')
         #sistema.guardar_csv(archivo_usuarios, sistema.usuarios)
         #print(f"Usuario agregado")
-        print("Usuario logueado")
+        sistema.agregar_relacion(69,36,'Rita')
+        sistema.guardar_csv(archivo_relaciones, sistema.relaciones)
+        print(f"Relación agregada")
+    print("-----------------")
     pelis = sistema.buscar_peliculas_por_titulo('star')
     for p in pelis:
         print(p)

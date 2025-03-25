@@ -1,127 +1,127 @@
-id_relacion,id_pelicula,id_estrella
-1,1,1
-2,1,2
-3,2,1
-4,2,2
-5,3,1
-6,3,2
-7,4,2
-8,6,8
-9,7,8
-10,8,8
-11,16,6
-12,14,5
-13,15,20
-14,21,23
-15,22,23
-16,1,28
-17,2,28
-18,3,28
-19,28,21
-20,30,26
-21,30,28
-22,12,12
-23,13,19
-24,34,7
-25,35,7
-26,36,7
-27,37,7
-28,11,9
-29,31,9
-30,33,12
-31,18,10
-32,32,21
-33,19,21
-34,39,29
-35,10,18
-36,19,18
-37,32,18
-38,43,34
-39,40,8
-40,47,19
-41,41,17
-42,38,51
-43,5,16
-44,30,32
-45,49,20
-46,23,15
-47,24,15
-48,25,15
-49,9,7
-50,17,7
-51,20,7
-52,46,30
-53,48,30
-54,50,30
-55,47,34
-56,100,57
-57,61,33
-58,11,10
-59,58,35
-60,26,16
-61,53,41
-62,54,41
-63,55,41
-64,45,33
-65,13,32
-66,38,16
-67,5,25
-68,44,25
-69,65,25
-70,60,18
-71,60,31
-72,65,43
-73,60,36
-74,65,36
-75,27,4
-76,52,4
-77,56,4
-78,59,26
-79,64,26
-80,66,26
-81,75,44
-82,76,44
-83,77,45
-84,78,45
-85,79,49
-86,80,53
-87,54,85
-88,52,81
-89,51,83
-90,90,57
-91,73,24
-92,74,24
-93,73,27
-94,94,39
-95,95,39
-96,96,39
-97,97,40
-98,98,40
-99,99,40
-100,46,82
-101,86,50
-102,87,50
-103,47,88
-104,84,48
-105,56,100
-106,55,89
-107,102,59
-108,93,60
-109,101,60
-110,101,62
-111,91,61
-112,71,58
-113,71,31
-114,70,31
-115,67,13
-116,86,14
-117,72,22
-118,74,27
-119,68,42
-120,103,42
-121,69,11
-122,103,11
-123,69,45
-124,92,58
-125,104,63
-126,103,65
+id_relacion,id_pelicula,id_estrella,personaje
+1,1,1,Luke Skywalker
+2,1,2,Lea Organa
+3,2,1,Luke Skywalker
+4,2,2,Lea Organa
+5,3,1,Luke Skywalker
+6,3,2,Lea Organa
+7,4,2,Terapista (sin créditos)
+8,6,8,Lady Bird McPherson
+9,7,8,Eilis
+10,8,8,Jo March
+11,16,6,Terminator
+12,14,5,Cassie Howard
+13,15,20,Edward Scissorhands
+14,21,23,Faith
+15,22,23,Jessi
+16,1,28,Han Solo
+17,2,28,Han Solo
+18,3,28,Han Solo
+19,28,21,Johnny Storm
+20,30,26,Joi
+21,30,28,Rick Deckard
+22,12,12,Kim Woo-Jin
+23,13,19,Barbie
+24,34,7,Nadine
+25,35,7,Zoey
+26,36,7,Louise
+27,37,7,Emily Dickinson
+28,11,9,Noolan Booth
+29,31,9,One
+30,33,12,Seok-woo
+31,18,10,Diana
+32,32,21,Steve Rogers (Capitán América)
+33,19,21,Steve Rogers (Capitán América)
+34,39,29,Peter Parker
+35,10,18,Tony Stark (Iron Man)
+36,19,18,Tony Stark (Iron Man)
+37,32,18,Tony Stark (Iron Man)
+38,43,34,Jack Dawson
+39,40,8,Agatha
+40,47,19,Naomi Lapaglia
+41,41,17,A tramp
+42,38,16,Shadow
+43,5,16,John Constantine
+44,30,32,K 
+45,49,20,Rango
+46,23,15,Spencer Shay
+47,24,15,Tommy
+48,25,15,Vinnie Bassett
+49,9,7,Gwen Stacy
+50,17,7,Emily  
+51,20,7,Vi 
+52,46,30,Prince Robert
+53,48,30,Prince Henry
+54,50,30,Jeff
+55,47,34,Jordan Belfort
+56,100,56,Mike Lowrey
+57,61,33,Det. Scott Turner
+58,11,10,The Bishop
+59,58,35,Lenny Feder
+60,26,16,Thomas A. Anderson (Neo)
+61,53,41,Claire
+62,54,41,Alice
+63,55,41,Jane Eyre
+64,45,33,Forrest Gump
+65,13,32,Ken
+66,38,16,Shadow
+67,5,25,Gabriel
+68,44,25,Oracle
+69,65,25,Desconocido
+70,60,18,Lewis Strauss
+71,60,31,J. Robert Oppenheimer
+72,65,43,
+73,60,36,Kitty Oppenheimer
+74,65,36,Rita
+75,27,4,Michael Corleone
+76,52,4,Jimmy Hoffa
+77,56,4,Sonny
+78,59,26,Joi
+79,64,26,Paloma
+80,66,26,Marta Cabrera
+81,75,44,Raleigh Becket
+82,76,44,Arthur
+83,77,45,Maverick
+84,78,45,Cage
+85,79,49,Freddie Mercury
+86,80,53,Evelyn Wang
+87,85,54,Holly Golightly
+88,81,52,Patrick
+89,83,51,László Tóth
+90,57,90,Galinda
+91,73,24,Saul Godman
+92,74,24,Saul Godman
+93,73,27,Walter White
+94,94,39,Prof. Sócrates García
+95,95,39,El Bolero
+96,96,39,Passepartout
+97,97,40,Hermione Granger
+98,98,40,Hermione Granger
+99,99,40,Hermione Granger
+100,82,46,Bruce Wayne
+101,86,50,Brand
+102,87,50,Andy Sachs
+103,88,47,Valentín
+104,84,48,Neil Patrick Harris
+105,100,56,Mike Lowrey
+106,89,55,Michael Scott
+107,102,59,Matt Murdock
+108,93,60,Norman Osborn
+109,101,60,Norman Osborn
+110,101,62,Doc Ock
+111,91,61,Laurie Strode
+112,71,58,Joker
+113,71,31,Dr. Jonathan Crane (Scarecrow)
+114,70,31,Dr. Jonathan Crane (Scarecrow)
+115,67,13,Jack Torrance
+116,86,14,Cooper
+117,72,22,Andrew
+118,74,27,Walter White
+119,68,42,Col. Hans Landa
+120,103,42,Dr. King Schultz
+121,69,11,Max
+122,103,11,Django
+123,69,45,Vincent
+124,92,58,Ennis Del Mar
+125,104,63,The Joker
+126,69,36,Rita
