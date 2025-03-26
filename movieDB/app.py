@@ -26,5 +26,11 @@ def actores():
     actores = sistema.actores.values()
     return render_template('actores.html', actores=actores)
 
+@app.route('/peliculas')
+def peliculas():
+    ''' Muestra la lista de películas '''
+    peliculas = sistema.peliculas.values()
+    return render_template('peliculas.html', peliculas=peliculas)
+
 if __name__ == '__main__':
     app.run(debug=True)

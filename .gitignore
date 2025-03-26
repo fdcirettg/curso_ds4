@@ -18,3 +18,4 @@ games/__pycache__/game_logic.cpython-312.pyc
 libros_web/template.html
 libros_web/__pycache__/funciones.cpython-312.pyc
 movieDB/templates/actores.html
+movieDB/__pycache__/movie_classes.cpython-312.pyc
