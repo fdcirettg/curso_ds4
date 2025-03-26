@@ -20,5 +20,17 @@ sistema.cargar_csv(users_csv,mc.User)
 def index():
     return render_template('index.html')
 
+@app.route('/actores')
+def actores():
+    ''' Muestra la lista de actores '''
+    lista_actores = sistema.actores.values()
+    return render_template('actores.html', actores=lista_actores)
+
+@app.route('/peliculas')
+def peliculas():
+    ''' Muestra la lista de peliculas '''
+    lista_peliculas = sistema.peliculas.values()
+    return render_template('peliculas.html', peliculas=lista_peliculas)
+
 if __name__ == '__main__':
     app.run(debug=True)
