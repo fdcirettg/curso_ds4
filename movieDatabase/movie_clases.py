@@ -184,6 +184,25 @@ class SistemaCine:
     def buscar_actores_por_nombre(self, nombre_parcial):
         return [actor for actor in self.actores.values() if nombre_parcial.lower() in actor.nombre.lower()]
     
+    def obtener_personajes_por_estrella(self, id_estrella):
+        personajes = []
+        for rel in self.relaciones.values():
+            if rel.id_estrella == id_estrella:
+                pelicula = self.peliculas.get(rel.id_pelicula)
+                if pelicula:
+                    personajes.append({"personaje": rel.personaje, "pelicula": pelicula})
+        return personajes
+    
+    def obtener_personajes_por_pelicula(self, id_pelicula):
+        ''' Método para obtener los personajes de una película'''
+        actores = []
+        for rel in self.relaciones.values():
+            if rel.id_pelicula == id_pelicula:
+                actor = self.actores.get(rel.id_estrella)
+                if actor:
+                    actores.append({"personaje": rel.personaje,"actor":actor})
+        return actores
+    
 if __name__ == '__main__':
     sistema = SistemaCine()
     archivo_actores = 'datos/movies_db - actores.csv'
@@ -233,4 +252,8 @@ if __name__ == '__main__':
     actores = sistema.buscar_actores_por_nombre('ar')
     for a in actores:
         print(a)
+    print("-----------------")
+    personajes = sistema.obtener_personajes_por_estrella(4)
+    for p in personajes:
+        print(f"{p['personaje']} - {p['pelicula']}")
     print("Listo!")
