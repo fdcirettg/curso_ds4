@@ -177,6 +177,15 @@ class SistemaCine:
             user = User(username, nombre_completo, email, password)
             self.usuarios[user.username] = user
 
+    def obtener_personajes_por_estrella(self, id_estrella):
+        personajes = []
+        for rel in self.relaciones.values():
+            if rel.id_estrella == id_estrella:
+                pelicula = self.peliculas.get(rel.id_pelicula)
+                if pelicula:
+                    personajes.append({"personaje": rel.personaje, "pelicula": pelicula})
+        return personajes
+    
 if __name__ == '__main__':
     #archivo = "datos/actores.csv"
     archivo_actores    = "datos/movies_db - actores.csv"
