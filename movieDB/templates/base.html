@@ -29,6 +29,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/peliculas_con_actores">Peliculas con actores</a>
                     </li>
+                    {% if session.get('logged_in') %}
                     <li class="nav-item">
                         <a class="nav-link" href="/agregar_actores">Agregar actores</a>
                     </li>
@@ -41,7 +42,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/usuarios">Usuarios</a>
                     </li>
+                    {% endif %}
                 </ul>
+                <ul class="navbar-nav ms-auto">
+                    {% if session.get('logged_in') %}
+                    <li class="nav-item">
+                        <span class="nav-link">Bienvenido, {{ session.get('username') }}</span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Cerrar sesión</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Iniciar sesión</a>
+                    </li>
+                    {% endif %}
             </div>
         </div>
     </nav>
