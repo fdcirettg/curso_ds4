@@ -72,5 +72,27 @@ def logout():
     flash('Has cerrado sesión correctamente', 'info')
     return redirect(url_for('index'))
 
+@app.route('/agregar_relacion', methods=['GET'])
+def agregar_relacion():
+    ''' Agrega una relación entre un actor y una película '''
+    if sistema.usuario_actual is None:
+        flash('Debes iniciar sesión para agregar relaciones', 'warning')
+        return redirect(url_for('login'))
+    actores_list=[]
+    for actor in sistema.actores.values():
+        actores_list.append({
+            'id_estrella': actor.id_estrella,
+            'nombre': actor.nombre
+        })
+        sorted_actores = sorted(actores_list, key=lambda x: x['nombre'])
+    peliculas_list=[]
+    for pelicula in sistema.peliculas.values():
+        peliculas_list.append({
+            'id_pelicula': pelicula.id_pelicula,
+            'titulo': pelicula.titulo_pelicula
+        })
+        sorted_peliculas = sorted(peliculas_list, key=lambda x: x['titulo'])
+    return render_template('agregar_relacion.html', actores=sorted_actores, peliculas=sorted_peliculas)
+
 if __name__ == '__main__':
     app.run(debug=True)
