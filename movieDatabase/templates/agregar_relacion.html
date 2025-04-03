@@ -4,13 +4,13 @@
 <body>
     <div class="container mt-5">
         <h1>Agregar relación entre película y actor/actriz</h1>
-        <form method="post" action="/submit_relacion">
+        <form method="post" action="/agregar_relacion">
             <div class="mb-3">
                 <label for="movieSelect" class="form-label">Película</label>
                 <select class="form-select" id="movieSelect" name="movieSelect" required >
                     <option selected disabled value="">Escoge una película</option>
                     {% for pelicula in peliculas %}
-                        <option value="{{ pelicula.id_pelicula }}">{{ pelicula.titulo_pelicula }}</option>
+                        <option value="{{ pelicula.id_pelicula }}">{{ pelicula.titulo }}</option>
                     {% endfor %}
                 </select>
             </div>
