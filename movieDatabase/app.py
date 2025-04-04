@@ -98,7 +98,7 @@ def agregar_relacion():
         id_actor = int(request.form['actorSelect'])
         id_pelicula = int(request.form['movieSelect'])
         personaje  = request.form['character']
-        sistema.agregar_relacion(id_actor, id_pelicula,personaje)
+        sistema.agregar_relacion(id_pelicula, id_actor,personaje)
         sistema.guardar_csv(relaciones_csv,sistema.relaciones)
         flash('Relación agregada correctamente', 'success')
         #return redirect(url_for('index'))

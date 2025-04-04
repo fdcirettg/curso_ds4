@@ -130,7 +130,7 @@ class SistemaCine:
     def guardar_csv(self, archivo, objetos):
         if not objetos:
             return
-        with open(archivo, 'a', newline='', encoding='utf-8') as f:
+        with open(archivo, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=next(iter(objetos.values())).to_dict().keys())
             writer.writeheader()
             for obj in objetos.values():
