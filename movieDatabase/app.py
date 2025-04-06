@@ -103,6 +103,23 @@ def agregar_relacion():
         flash('Relación agregada correctamente', 'success')
         #return redirect(url_for('index'))
         return redirect(url_for('actor', id_actor=id_actor))
-    
+
+@app.route('/agregar_pelicula', methods=['GET','POST'])
+@app.route('/agregar_peliculas', methods=['GET','POST'])
+def agregar_pelicula():
+    ''' Agrega una película '''
+    if sistema.usuario_actual is None:
+        flash('Debes iniciar sesión para agregar películas', 'warning')
+        return redirect(url_for('login'))
+    if request.method == 'GET':
+        return render_template('agregar_pelicula.html')
+    if request.method == 'POST':
+        titulo = request.form['titulo']
+        fecha_lanzamiento = request.form.get('fecha_lanzamiento')
+        url_poster = request.form.get('url_poster')
+        sistema.agregar_pelicula(titulo,fecha_lanzamiento,url_poster)
+        sistema.guardar_csv(peliculas_csv,sistema.peliculas)
+        return redirect(url_for('peliculas'))
+
 if __name__ == '__main__':
     app.run(debug=True)

@@ -180,6 +180,7 @@ class SistemaCine:
                 user = User(username, nombre_completo, email, password)
                 user.password = user.hash_password(user.password)
                 self.usuarios[user.username] = user
+                
     def buscar_peliculas_por_titulo(self, titulo_parcial):
         return [pelicula for pelicula in self.peliculas.values() if titulo_parcial.lower() in pelicula.titulo_pelicula.lower()]
     
