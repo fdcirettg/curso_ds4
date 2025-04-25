@@ -3,7 +3,7 @@ import os
 import csv
 import argparse
 
-# Función para leer el archivo CSV y devolver una lista de frases 
+# Función para leer el archivo CSV y devolver una lista de frases
 def leer_csv(archivo):
     ''' Lee un archivo CSV y devuelve una lista de frases '''
     frases = []
